@@ -1,5 +1,5 @@
 <template>
-  <video ref="video" autoplay muted loop />
+  <video ref="video" playsinline autoplay muted loop />
 </template>
 <script lang="ts" setup>
 import Hls from 'hls.js'
