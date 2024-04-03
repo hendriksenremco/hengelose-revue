@@ -13,6 +13,7 @@
   <main :class="$style['layout__main']">
     <slot />
   </main>
+  <Footer />
 </template>
 <script setup>
 import { Menu } from 'lucide-vue-next'
@@ -20,6 +21,8 @@ const { sidebarShouldShow, showSidebar, hideSidebar } = useLayout()
 </script>
 <style lang="scss" module>
 .layout {
-
+  &__main {
+    min-height: calc(100vh - var(--topbar-height) + var(--spacing));
+  }
 }
 </style>

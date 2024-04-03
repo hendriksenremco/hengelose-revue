@@ -1,0 +1,21 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit"
+    },
+    "eslint.debug": false,
+    "eslint.validate": ["js", "ts"],
+    "editor.tabSize": 2,
+    "css.validate": false,
+    "scss.validate": false,
+    "stylelint.config": null,
+    "stylelint.validate": [
+      "postcss",
+      "vue",
+      "scss",
+      "css"
+    ],
+    "typescript.format.semicolons": "remove",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "stylelint.packageManager": "yarn"
+  }

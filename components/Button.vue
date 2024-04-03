@@ -6,15 +6,17 @@
              {[$style[`button--${color}`]]: color},
              {[$style[`button--${size}`]]: size},
              {[$style[`button--styleless`]]: styleless},
+             {[$style[`button--with-border`]]: withBorder},
+             {[$style[`button--transparent`]]: transparent},
              {[$style[`button--rounded`]]: rounded},
     ]">
     <span :class="$style['button__content']">
-      <span v-if="icon && iconPos ==='left'" :class="$style['button__icon']">
+      <span v-if="icon && iconPos ==='left'" :class="[$style['button__icon'], $style['button__icon--left']]">
         <component :is="icon" />
       </span>
       <slot />
 
-      <span v-if="icon && iconPos === 'right'" :class="$style['button__icon']">
+      <span v-if="icon && iconPos === 'right'" :class="[$style['button__icon'], $style['button__icon--right']]">
         <component :is="icon" />
       </span>
     </span>
@@ -24,11 +26,19 @@
 const nuxtLink = resolveComponent('nuxt-link')
 defineProps({
   to: {
-    type: Object,
+    type: [String, Object],
     default: null
   },
   color: {
     type: String,
+    default: null
+  },
+  withBorder: {
+    type: Boolean,
+    default: null
+  },
+  transparent: {
+    type: Boolean,
     default: null
   },
   size: {
@@ -49,11 +59,12 @@ defineProps({
   },
   rounded: {
     type: Boolean,
+
     default: false
   }
 })
 
 </script>
 <style  lang="scss" module>
-@import url('~/css/components/_button.scss');
+@import '~/css/components/_button';
 </style>

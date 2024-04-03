@@ -1,0 +1,4 @@
+- sponsoring
+- verhuur
+- video homepage
+- build pipeline

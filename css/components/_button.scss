@@ -1,7 +1,6 @@
 .button {
-    --background-color: var(--opacity-surface);
-    --border-color: transparent;
-    --color: var(--text-base);
+    --background-color: var(--secondary-surface);
+    --color: var(--secondary-on-surface);
     --content-height: var(--spacing-xxl);
     --padding-y: var(--spacing);
     --padding-x: var(--spacing);
@@ -22,6 +21,8 @@
     vertical-align: middle;
     position: relative;
     transition: all var(--duration-micro-fast) var(--easing-transition);
+    text-decoration: none;
+    font-style:normal;
     overflow: hidden;
     white-space: nowrap;
 
@@ -40,14 +41,14 @@
     }
 
     &:hover {
-        --background-color: var(--opacity-surface-state-1);
+        --background-color: var(--primary-surface-state-1);
         &:before {
             transform: translateY(-100%) translateZ(0);
         }
     }
 
     &:active {
-        --background-color: var(--opacity-surface-state-2);
+        --background-color: var(--primary-surface-state-2);
     }
 
     &__content {
@@ -63,8 +64,14 @@
 
     &__icon {
         display: flex;
-        margin-left: var(--spacing);
 
+        &--left {
+            margin-right: var(--spacing);
+        }
+
+        &--right {
+            margin-left: var(--spacing);
+        }
         svg {
             margin: 0 calc(var(--spacing-s) * -1);
             width: var(--icon-size);
@@ -75,12 +82,6 @@
 
     &--rounded {
         border-radius: var(--border-radius);
-    }
-
-    &--filled {
-        --background-color: var(--background-base);
-        --border-color: var(--border-subtle);
-        --color: var(--text-base);
     }
 
     &--cta {
@@ -94,39 +95,25 @@
         }
     }
 
-    &--white {
-        --background-color: var(--secondary-base);
-        --box-shadow: var(--box-shadow-elevation-1);
-        color: var(--hr-red);
-
-        .button__content {
-            background: var(--hr-gradient);
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        &:hover {
-            background: var(--secondary-base);
-        }
-        &:active {
-            --background-color: var(--primary-cta-state-2);
-        }
-    }
-
-    &--transparent {
-        --background-color: transparent;
-        --border-color: transparent;
+    &--with-border {
+      box-shadow: inset 0px 0px 0px 1px var(--text-base);
+      color: var(--text-base);
     }
 
     &--styleless {
-        font-family: var(--font-family);
-        text-transform: none;
-        font-weight: normal;
+      background-color: transparent;
+      font-family: var(--font-family);
+      text-transform: none;
+      font-weight: var(--font-weight-normal);
 
-        .button__content {
-            height: auto;
-            // padding: 0;
-        }
+      .button__content {
+          height: auto;
+          // padding: 0;
+      }
+    }
+
+    &--transparent {
+      background-color: transparent;
     }
 
     &--big {

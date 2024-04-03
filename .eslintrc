@@ -1,7 +1,5 @@
 {
-    "extends": [
-        "@nuxtjs/eslint-config-typescript"
-    ],
+  "extends": ["@nuxtjs/eslint-config-typescript"],
     "rules": {
         "arrow-parens": [
             "error",

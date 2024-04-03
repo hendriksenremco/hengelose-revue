@@ -24,6 +24,7 @@
     top: 0;
     width: 100%;
     z-index: 1;
+    container: topbar / inline-size;
 
     &__button {
         margin-right: var(--spacing-xl);
@@ -38,7 +39,7 @@
     &__content {
         display: flex;
 
-        @media (max-width: #{$breakpoint-mobile}) {
+        @container (width < 70rem) {
             display: none;
         }
     }
@@ -46,7 +47,8 @@
     &__mobile-content {
         display: flex;
         margin-left: auto;
-        @media (min-width: #{$breakpoint-mobile + 1}) {
+
+        @container (width >= 70rem) {
             display: none;
         }
     }
@@ -54,7 +56,7 @@
 
 .container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
     max-width: var(--container-width);
     margin: 0 auto;

@@ -3,8 +3,9 @@
     :class="[
       $style['container'],
       {[$style['container--no-padding']]: noPadding},
+      {[$style['container--no-padding-top']]: noPaddingTop},
       {[$style['container--full-width']]: fullWidth},
-      {[$style['container--height-auto']]: heightAuto},
+      {[$style['container--full-height']]: fullHeight},
     ]">
     <slot />
   </div>
@@ -15,11 +16,15 @@ defineProps({
     type: Boolean,
     default: false
   },
+  noPaddingTop: {
+    type: Boolean,
+    default: false
+  },
   fullWidth: {
     type: Boolean,
     default: false
   },
-  heightAuto: {
+  fullHeight: {
     type: Boolean,
     default: false
   }
@@ -27,28 +32,32 @@ defineProps({
 </script>
 <style lang="scss" module>
 .container {
-    max-width: var(--container-width);
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-    padding: 5rem 0 var(--spacing-l) 0;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: 5rem 0 var(--spacing-l) 0;
 
-    @media (max-width: var(--container-width)) {
-        padding: var(--spacing-l);
-        padding-top: var(--topbar-height);
-    }
+  @media (width <= 70rem) {
+    padding: var(--spacing-l);
+    padding-top: calc(var(--topbar-height) + var(--spacing));
+  }
 
-    &--no-padding {
-        padding: 0;
-        padding-top: var(--topbar-height);
-    }
+  &--no-padding{
+      padding: 0;
+      padding-top: var(--topbar-height);
+  }
 
-    &--full-width {
-        max-width: 100%;
-    }
+  &--no-padding-top {
+    padding-top: 0;
+  }
 
-    &--height-auto {
-        height: auto;
-    }
+  &--full-width {
+      max-width: 100%;
+  }
+
+  &--full-height {
+    min-height: calc(100vh - var(--topbar-height));
+  }
 }
+
 </style>
