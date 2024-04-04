@@ -3,6 +3,7 @@ import svgLoader from 'vite-svg-loader'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   vite: {
     plugins: [
       svgLoader({
@@ -20,5 +21,9 @@ export default defineNuxtConfig({
         }
       })
     ]
+  },
+  modules: ['@storyblok/nuxt'],
+  storyblok: {
+    accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'
   }
 })

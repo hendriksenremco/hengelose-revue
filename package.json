@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "dev:ssl": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "lint": "eslint .",
@@ -13,6 +14,7 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@storyblok/nuxt": "^6.0.6",
     "@types/node": "^20.11.5",
     "@vueuse/core": "^10.9.0",
     "eslint": "^8.56.0",
