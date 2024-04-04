@@ -2,7 +2,7 @@
   <Container no-padding full-width>
     <Hero>
       <template #background>
-        <NuxtImg :src="story.content.image.filename" />
+        <NuxtImg v-if="story.content.image.filename" :src="story.content.image.filename" />
       </template>
       <h1>{{ story.content.title }}</h1>
       <p>{{ story.content.teaser }}</p>
