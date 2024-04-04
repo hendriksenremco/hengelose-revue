@@ -1,10 +1,10 @@
 <template>
-  <Container no-padding>
-    <Hero height-auto no-overlay>
+  <Container no-padding full-width>
+    <Hero no-overlay height-auto>
       <template #background>
         <iframe
           :class="$style['video']"
-          src="https://www.youtube.com/embed/Dw5sInFIi0k?autoplay=1&muted=1"
+          src="https://www.youtube.com/embed/Dw5sInFIi0k"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

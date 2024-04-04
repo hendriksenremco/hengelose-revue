@@ -60,6 +60,7 @@ withDefaults(defineProps<Props>(), {
   }
 
   &__background {
+    background-color: #000;
     position: absolute;
     inset: 0;
 
