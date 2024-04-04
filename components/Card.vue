@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['card']">
     <div v-if="image" :class="$style['card__image']">
-      <img :src="image">
+      <NuxtImg :src="image" />
     </div>
     <div :class="$style['card__content']">
       <slot />

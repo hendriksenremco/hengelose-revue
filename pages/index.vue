@@ -32,16 +32,21 @@
     </Container>
     <Container :class="$style['news']">
       <h2 :class="$style['news__title']">
-        Nieuws van de Hengelose Revue
+        <NuxtLink :to="{name: 'nieuws'}">
+          Nieuws van de Hengelose Revue
+        </NuxtLink>
       </h2>
-      <Card image="/bertus.jpg">
-        <h4>Bertus Braam ontvangt Rinus Paskamp award</h4>
-        <template #actions>
-          <Button :to="{name: 'nieuws-slug', params: {slug:'1'}}" :icon="MoveRight" icon-pos="right" color="transparent">
-            Lees meer
-          </Button>
-        </template>
-      </Card>
+      <div v-for="story in data.stories" :key="story._uid">
+        <Card :image="story.content.image.filename ">
+          <h4>{{ story.content.title }}</h4>
+          <small>{{ story.content.teaser }}</small>
+          <template #actions>
+            <Button :to="{name: 'nieuws-slug', params: {slug: story.slug}}" :icon="MoveRight" icon-pos="right" color="transparent">
+              Lees meer
+            </Button>
+          </template>
+        </Card>
+      </div>
     </Container>
     <Container :class="$style['sponsors']">
       <h2 :class="$style['sponsors__title']">
@@ -49,16 +54,12 @@
       </h2>
       <HomeSponsors />
     </Container>
-    <!-- <Container>
-      <h2>Laatste nieuws</h2>
-    </Container>
-    <Container>
-      <h2>Verhuur</h2>
-    </Container> -->
   </Box>
 </template>
 <script setup>
 import { MoveRight, Phone } from 'lucide-vue-next'
+const storyblokApi = useStoryblokApi()
+const { data } = await storyblokApi.get('cdn/stories', { version: 'draft', starts_with: 'nieuws', is_startpage: false })
 </script>
 <style lang="scss" module>
 .title {

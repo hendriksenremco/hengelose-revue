@@ -22,8 +22,13 @@ export default defineNuxtConfig({
       })
     ]
   },
-  modules: ['@storyblok/nuxt'],
+  modules: ['@storyblok/nuxt', '@nuxt/image'],
   storyblok: {
     accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'
+  },
+  image: {
+    domains: [
+      'a.storyblok.com'
+    ]
   }
 })
