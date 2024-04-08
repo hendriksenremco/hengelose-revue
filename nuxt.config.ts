@@ -35,7 +35,12 @@ export default defineNuxtConfig({
 
   pwa: {
     manifest: {
-      name: 'Hengelose Revue | Dé Twentse Revue'
+      name: 'Hengelose Revue | Dé Twentse Revue',
+      short_name: 'Hengelose Revue',
+      theme_color: '#ff7e05'
+    },
+    pwaAssets: {
+      config: true
     }
   }
 })
