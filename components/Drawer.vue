@@ -8,7 +8,7 @@
     ]">
     <slot />
 
-    <IconButton :icon="iconClose" :class="$style['drawer__close']" @click="$emit('close')" />
+    <IconButton icon="iconClose" :class="$style['drawer__close']" @click="$emit('close')" />
   </nav>
 </template>
 <script setup>

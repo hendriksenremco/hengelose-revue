@@ -1,11 +1,11 @@
 <template>
   <Drawer :show="sidebarShouldShow" @close="hideSidebar">
-    <Navigation />
+    <!-- <Navigation /> -->
   </Drawer>
   <TopBar>
     <Navigation />
     <template #mobile>
-      <Button :icon="Menu" class icon-pos="right" @click="showSidebar">
+      <Button icon="Menu" class icon-pos="right" @click="showSidebar">
         Menu
       </Button>
     </template>

@@ -12,12 +12,12 @@
     ]">
     <span :class="$style['button__content']">
       <span v-if="icon && iconPos ==='left'" :class="[$style['button__icon'], $style['button__icon--left']]">
-        <component :is="icon" />
+        <Icon :name="icon" />
       </span>
       <slot />
 
       <span v-if="icon && iconPos === 'right'" :class="[$style['button__icon'], $style['button__icon--right']]">
-        <component :is="icon" />
+        <Icon :name="icon" />
       </span>
     </span>
   </component>
@@ -50,7 +50,7 @@ defineProps({
     default: 'left'
   },
   icon: {
-    type: [Function, Object],
+    type: String,
     default: null
   },
   styleless: {

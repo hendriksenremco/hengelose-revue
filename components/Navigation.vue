@@ -1,20 +1,10 @@
 <template>
-  <NavItem :to="{path: '/kaartverkoop'}">
-    Kaartverkoop
-  </NavItem>
-  <NavItem :to="{path: '/wie-zijn-wij'}">
-    Wie zijn wij
-  </NavItem>
-  <NavItem :to="{path: '/fotos-videos'}">
-    Foto's & Video's
-  </NavItem>
-  <NavItem :to="{path: '/verhuur'}">
-    Verhuur
-  </NavItem>
-  <NavItem :to="{path: '/sponsoren'}">
-    Sponsoren
-  </NavItem>
-  <NavItem :to="{name: 'contact'}">
-    Contact
+
+  <NavItem :to="{path: '/'+ page.full_slug}" v-for="page in story.content.pages">
+    {{ page.name }}
+
   </NavItem>
 </template>
+<script setup>
+const story = await useAsyncStoryblok('global/navigation', {resolve_relations: 'Navigation.pages'})
+</script>

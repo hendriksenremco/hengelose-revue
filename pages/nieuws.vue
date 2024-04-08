@@ -5,7 +5,8 @@
         <h4>{{ story.content.title }}</h4>
         <small>{{ story.content.teaser }}</small>
         <template #actions>
-          <Button :to="{name: 'nieuws-slug', params: {slug: story.slug}}" :icon="MoveRight" icon-pos="right" color="transparent">
+
+          <Button :to="{path: '/' + story.full_slug}" icon="MoveRight" icon-pos="right" color="transparent">
             Lees meer
           </Button>
         </template>
@@ -14,7 +15,14 @@
   </Container>
 </template>
 <script setup>
-import { MoveRight } from 'lucide-vue-next'
-const storyblokApi = useStoryblokApi()
-const { data } = await storyblokApi.get('cdn/stories', { version: 'draft', starts_with: 'nieuws', is_startpage: false })
+const { $preview } = useNuxtApp()
+const version = $preview ? 'draft' : 'published'
+//  const route = useRoute()
+
+const { data } = await useStoryblokApi().get('cdn/stories/', {
+  version,
+  starts_with: 'nieuws',
+  is_startpage:false
+})
+console.log(data)
 </script>

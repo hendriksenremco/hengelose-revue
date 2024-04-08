@@ -2,7 +2,7 @@
   <button :class="[$style['button'], {[$style[`button--${color}`]]: color}]">
     <span :class="$style['button__content']">
       <span :class="$style['button__icon']">
-        <component :is="icon" />
+        <Icon :name="icon" />
         <slot />
       </span>
     </span>
@@ -15,7 +15,7 @@ defineProps({
     default: null
   },
   icon: {
-    type: [Function, Object],
+    type: String,
     default: null
   }
 })
