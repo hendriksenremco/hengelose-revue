@@ -4,9 +4,27 @@
 :global(.h-margin-top-xl) {
   margin-top: var(--spacing-xl);
 }
+:global(.h-margin-top-xxl) {
+  margin-top: var(--spacing-xxl);
+}
+:global(.h-margin-top-xxxl) {
+  margin-top: var(--spacing-xxxl);
+}
+:global(.h-margin-top-xxxxl) {
+  margin-top: var(--spacing-xxxxl);
+}
 :global(.h-margin-bottom) {
   margin-bottom: var(--spacing);
 }
 :global(.h-margin-bottom-xl) {
   margin-bottom: var(--spacing-xl);
+}
+:global(.h-margin-bottom-xxl) {
+  margin-bottom: var(--spacing-xxl);
+}
+:global(.h-margin-bottom-xxxl) {
+  margin-bottom: var(--spacing-xxxl);
+}
+:global(.h-margin-bottom-xxxxl) {
+  margin-bottom: var(--spacing-xxxxl);
 }

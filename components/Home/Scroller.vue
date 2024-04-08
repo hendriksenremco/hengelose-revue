@@ -48,6 +48,7 @@ onMounted(() => {
   font-weight: var(--font-weight-thin);
   font-family: var(--font-family);
   position: relative;
+  margin-bottom: var(--spacing-l);
 }
 
 .word {

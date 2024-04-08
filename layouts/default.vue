@@ -1,6 +1,6 @@
 <template>
   <Drawer :show="sidebarShouldShow" @close="hideSidebar">
-    <!-- <Navigation /> -->
+    <Navigation />
   </Drawer>
   <TopBar>
     <Navigation />

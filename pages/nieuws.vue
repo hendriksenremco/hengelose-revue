@@ -24,5 +24,5 @@ const { data } = await useStoryblokApi().get('cdn/stories/', {
   starts_with: 'nieuws',
   is_startpage:false
 })
-console.log(data)
+
 </script>
