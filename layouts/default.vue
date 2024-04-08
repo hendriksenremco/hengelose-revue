@@ -5,7 +5,7 @@
   <TopBar>
     <Navigation />
     <template #mobile>
-      <Button :icon="Menu" icon-pos="right" @click="showSidebar">
+      <Button :icon="Menu" class icon-pos="right" @click="showSidebar">
         Menu
       </Button>
     </template>
@@ -18,6 +18,17 @@
 <script setup>
 import { Menu } from 'lucide-vue-next'
 const { sidebarShouldShow, showSidebar, hideSidebar } = useLayout()
+
+useHead({
+  titleTemplate: titleChunk => titleChunk ? `${titleChunk} | Hengelose Revue` : 'Hengelose Revue | Dé Twentse Revue',
+  meta: [
+    {
+      key: 'description',
+      name: 'description',
+      content: 'Twentse humor met een hoog entertainment gehalte'
+    }
+  ]
+})
 </script>
 <style lang="scss" module>
 .layout {

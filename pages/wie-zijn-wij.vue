@@ -20,6 +20,11 @@
     Erkend leer bedrijf
   </Container>
 </template>
+<script setup>
+useHead({
+  title: 'Wie zijn wij?'
+})
+</script>
 <style lang="scss" module>
 .video {
 

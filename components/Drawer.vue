@@ -1,5 +1,6 @@
 <template>
   <nav
+    :aria-hidden="!show"
     ref="root"
     :class="[
       $style['drawer'],

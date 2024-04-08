@@ -36,8 +36,9 @@
           Nieuws van de Hengelose Revue
         </NuxtLink>
       </h2>
-      <div v-for="story in data.stories" :key="story._uid">
-        <Card :image="story.content.image.filename ">
+
+      <div :class="$style['news__grid']">
+        <Card v-for="story in data.stories" :key="story._uid" :image="story.content.image.filename ">
           <h4>{{ story.content.title }}</h4>
           <small>{{ story.content.teaser }}</small>
           <template #actions>
@@ -77,12 +78,23 @@ const { data } = await storyblokApi.get('cdn/stories', { version: 'draft', start
 .news,
 .sponsors {
   &__title {
-
+    color: var(--text-base);
     margin-bottom: var(--spacing-xl);
+
+    a {
+      color: var(--text-base);
+    }
   }
 }
 
 .news {
   margin-top: 0;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--spacing-l);
+    width: 100%;
+  }
 }
 </style>

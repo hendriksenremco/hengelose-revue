@@ -4,7 +4,7 @@
       "source.fixAll.stylelint": "explicit"
     },
     "eslint.debug": false,
-    "eslint.validate": ["js", "ts"],
+    "eslint.validate": ["js"],
     "editor.tabSize": 2,
     "css.validate": false,
     "scss.validate": false,
@@ -16,6 +16,7 @@
       "css"
     ],
     "typescript.format.semicolons": "remove",
+    "stylelint.packageManager": "yarn",
     "typescript.tsdk": "node_modules/typescript/lib",
-    "stylelint.packageManager": "yarn"
+    "vue.inlayHints.inlineHandlerLeading": true
   }

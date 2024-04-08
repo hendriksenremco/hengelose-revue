@@ -20,9 +20,9 @@ defineProps<{
 .card {
   background-color: var(--secondary-surface);
   box-shadow: var(--box-shadow-elevation-3);
-  max-width: 300px;
 
   &__image {
+    aspect-ratio: 16/9;
     display: flex;
 
     & > * {
