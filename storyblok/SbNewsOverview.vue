@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['news']">
+  <div :class="$style['news']" v-if="!pending">
     <h2 :class="$style['news__title']">{{ blok.title  }}</h2>
     <div :class="$style['news__grid']">
       <div v-for="story in data.stories" :key="story._uid">
@@ -19,13 +19,18 @@
 </template>
 <script setup>
 defineProps({ blok: Object })
-const { data } = await useStoryblokApi().get('cdn/stories/', {
-  version: 'published',
-  starts_with: 'nieuws',
-  is_startpage: false,
-  page: 1,
-  per_page: 4
+const {$preview} = useNuxtApp()
+const version = $preview ? 'draft' : 'published'
+const { data, pending } = useAsyncData('news-overview', async() => {
+  const { data } = await useStoryblokApi().get('cdn/stories/', {
+    version,
+    starts_with: 'nieuws',
+    is_startpage: false,
+    page: 1,
+    per_page: 4
+  })
 
+  return data 
 })
 
 </script>

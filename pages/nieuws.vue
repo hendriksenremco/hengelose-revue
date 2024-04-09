@@ -1,5 +1,5 @@
 <template>
-  <Container>
+  <Container v-if="!pending">
     <div v-for="story in data.stories" :key="story._uid">
       <Card :image="story.content.image.filename ">
         <h4>{{ story.content.title }}</h4>
@@ -17,12 +17,12 @@
 <script setup>
 const { $preview } = useNuxtApp()
 const version = $preview ? 'draft' : 'published'
-//  const route = useRoute()
-
-const { data } = await useStoryblokApi().get('cdn/stories/', {
-  version,
-  starts_with: 'nieuws',
-  is_startpage:false
+const { data, pending } = useAsyncData('news-page', async() => {
+  const { data } = await useStoryblokApi().get('cdn/stories/', {
+    version,
+    starts_with: 'nieuws',
+    is_startpage:false
+  })
+  return data 
 })
-
 </script>
