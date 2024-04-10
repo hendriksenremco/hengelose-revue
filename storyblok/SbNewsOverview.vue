@@ -19,20 +19,14 @@
 </template>
 <script setup>
 defineProps({ blok: Object })
-const {$preview} = useNuxtApp()
-const version = $preview ? 'draft' : 'published'
-const { data, pending } = useAsyncData('news-overview', async() => {
-  const { data } = await useStoryblokApi().get('cdn/stories/', {
-    version,
+
+const data = await useHrStoryblok('cdn/stories/', { 
+    version: 'published',
     starts_with: 'nieuws',
     is_startpage: false,
     page: 1,
     per_page: 4
-  })
-
-  return data 
 })
-
 </script>
 <style lang="scss" module>
 .news {

@@ -12,36 +12,39 @@ const admin = require('firebase-admin');
 const StoryblokClient  = require("storyblok-js-client");
 admin.initializeApp()
 const db = admin.firestore()
-// db.settings({ ignoreUndefinedProperties: true})
+db.settings({ ignoreUndefinedProperties: true})
 
 // admin.firestore().collection('storyblok').doc('test').set({id:1, hallo:'test'})
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
 
 exports.getStoryblok = onRequest((request, response) => {
-  const urlKey = request.originalUrl
+  const urlKey = request.originalUrl.replace(/\//g, '-');
   const Storyblok = new StoryblokClient({
-    accessToken: "Jehol4gVSqVfcrlkszKyhgtt",
+    accessToken: "Jehol4gVSqVfcrlkszKyhgtt"
   });
 
   db.collection('storyblok').doc(urlKey).get().then(doc => {
     console.log('from firestore')
     const snapshot = doc.data()
-    response.send(snapshot.story)
-  }).catch(() => {
+    response.send(snapshot.data)
+  }).catch((err) => {
     console.log('from storyblok')
-    Storyblok.get(request.originalUrl).then(data => {
+    Storyblok.get(request.path, {...request.query}).then(data => {
       db.collection('storyblok').doc(urlKey).set({ 
-        story: data.data.story,
+        data: data.data,
         timestamp: Date.now()
       })
-      response.send(data.data.story)
+      response.send(data.data)
+    }).catch(err => {
+      response.send(err)
+      console.log(err)
     })
   })
 });
 
 exports.purgeStoryblok = onRequest((request, response) => {
-  const urlKey = request.originalUrl
+  const urlKey = request.originalUrl.replace(/\//g, '-')
   db.collection('storyblok').doc(urlKey).delete()
   response.send("Purge");
 });
