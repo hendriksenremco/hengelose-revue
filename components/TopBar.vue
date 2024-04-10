@@ -15,7 +15,7 @@
 </template>
 <style lang="scss" module>
 .top-bar {
-    background-color: var(--background-subtle);
+    background-color: var(--secondary-surface);
     display: flex;
     align-items: stretch;
     justify-content: space-between;
@@ -23,7 +23,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
     container: topbar / inline-size;
 
     &__button {

@@ -5,7 +5,7 @@
   <TopBar>
     <Navigation />
     <template #mobile>
-      <Button icon="Menu" class icon-pos="right" @click="showSidebar">
+      <Button icon="Menu" icon-pos="right" @click="showSidebar">
         Menu
       </Button>
     </template>

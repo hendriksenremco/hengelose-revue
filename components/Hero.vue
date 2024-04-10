@@ -25,7 +25,6 @@ withDefaults(defineProps<Props>(), {
 </script>
 <style lang="scss"  module>
 .hero {
-  // background-image: url('~/assets/home-bg.jpg');
   background-size: cover;
   background-position: 50% 50%;
   justify-content: flex-end;
@@ -57,6 +56,18 @@ withDefaults(defineProps<Props>(), {
       height:100%;
       width: 50%;
     }
+  }
+
+  &:before {
+    // background-color: hsla(29deg 100% 51% / 20%);
+    background-image: url(/video-overlay.svg);
+    background-size: 3px;
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
+    z-index: 1;
   }
 
   &__background {

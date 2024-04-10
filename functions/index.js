@@ -6,19 +6,17 @@
  *
  * See a full list of supported triggers at https://firebase.google.com/docs/functions
  */
-const {onRequest} = require("firebase-functions/v2/https");
-const logger = require("firebase-functions/logger");
-const admin = require('firebase-admin');
 const StoryblokClient  = require("storyblok-js-client");
+const { setGlobalOptions } = require("firebase-functions/v2");
+const { onRequest } = require("firebase-functions/v2/https");
+const admin = require('firebase-admin');
+
+setGlobalOptions({region:'europe-west3'})
 admin.initializeApp()
 const db = admin.firestore()
 db.settings({ ignoreUndefinedProperties: true})
 
-// admin.firestore().collection('storyblok').doc('test').set({id:1, hallo:'test'})
-// Create and deploy your first functions
-// https://firebase.google.com/docs/functions/get-started
-
-exports.getStoryblok = onRequest((request, response) => {
+exports.getStoryblok = onRequest({cors: true}, (request, response) => {
   const urlKey = request.originalUrl.replace(/\//g, '-');
   const Storyblok = new StoryblokClient({
     accessToken: "Jehol4gVSqVfcrlkszKyhgtt"
@@ -43,8 +41,42 @@ exports.getStoryblok = onRequest((request, response) => {
   })
 });
 
-exports.purgeStoryblok = onRequest((request, response) => {
-  const urlKey = request.originalUrl.replace(/\//g, '-')
-  db.collection('storyblok').doc(urlKey).delete()
-  response.send("Purge");
+exports.purgeStoryblok = onRequest({cors: true}, (request, response) => {
+  const inputSlug = request.body.full_slug
+
+  if(!inputSlug) {
+    return response.send('no purge')
+  }
+
+  db.collection('storyblok').get().then((querySnapshot) => {
+    querySnapshot.forEach(doc => {
+      let shouldDelete = false
+      const data = doc.data()
+
+      if (data.data.story?.full_slug === inputSlug) {
+        shouldDelete = true
+      }
+
+      if(data.data.stories) {
+        data.data.stories.forEach(story => {
+          if(story.full_slug === inputSlug) {
+            shouldDelete = true
+          }
+        })
+      }
+
+      if(shouldDelete) {
+        console.log('should delete', doc.id)
+        db.collection("storyblok").doc(doc.id).delete()
+      }
+    })
+
+    response.send('purge')
+  })
+  .catch(error => {
+    console.log(error)
+  })
+  // const urlKey = request.originalUrl.replace(/\//g, '-')
+  // db.collection('storyblok').doc(urlKey).delete()
+  // response.send("Purge");
 });

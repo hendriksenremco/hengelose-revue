@@ -1,14 +1,18 @@
 <template>
-  <div :class="$style['news']" v-if="!pending">
-    <h2 :class="$style['news__title']">{{ blok.title  }}</h2>
+  <div :class="$style['news']">
+    <h2 :class="$style['news__title']">
+      <NuxtLink :to="{name:'nieuws'}">
+        {{ blok.title }}
+      </NuxtLink>
+    </h2>
     <div :class="$style['news__grid']">
       <div v-for="story in data.stories" :key="story._uid">
-        <Card :image="story.content.image.filename ">
+        <Card :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
           <h4>{{ story.content.title }}</h4>
           <small>{{ story.content.teaser }}</small>
-          <template #actions>
 
-            <Button :to="{path: '/' + story.full_slug}" icon="MoveRight" icon-pos="right" color="transparent">
+          <template #actions>
+            <Button icon="MoveRight" icon-pos="right" color="transparent">
               Lees meer
             </Button>
           </template>
@@ -20,19 +24,23 @@
 <script setup>
 defineProps({ blok: Object })
 
-const data = await useHrStoryblok('cdn/stories/', { 
-    version: 'published',
-    starts_with: 'nieuws',
-    is_startpage: false,
-    page: 1,
-    per_page: 4
+const data = await useHrStoryblok('cdn/stories/', {
+  version: 'published',
+  starts_with: 'nieuws',
+  is_startpage: false,
+  page: 1,
+  per_page: 4
 })
 </script>
 <style lang="scss" module>
 .news {
 
   &__title {
-    margin-bottom: var(--spacing-l)
+    margin-bottom: var(--spacing-l);
+
+    a {
+      color: var(--text-base);
+    }
   }
 
   &__grid {

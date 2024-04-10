@@ -1,19 +1,20 @@
 <template>
   <nav
-    :aria-hidden="!show"
     ref="root"
+    :aria-hidden="!show"
     :class="[
       $style['drawer'],
       {[$style['drawer--show']]:show}
     ]">
     <slot />
 
-    <IconButton icon="iconClose" :class="$style['drawer__close']" @click="$emit('close')" />
+    <Button icon="X" transparent icon-pos="right" :class="$style['drawer__close']" @click="$emit('close')">
+      Sluiten
+    </Button>
   </nav>
 </template>
 <script setup>
 import { onClickOutside } from '@vueuse/core'
-import iconClose from 'remixicon/icons/System/close-line.svg'
 const emit = defineEmits(['close'])
 defineProps({
   show: {
@@ -37,15 +38,16 @@ onClickOutside(root, () => emit('close'))
     transform: translateX(100%);
     transition: transform var(--duration-micro-normal) var(--easing-transition);
     background-color: var(--background-raised);
-    box-shadow: var(--box-shadow-elevation-1);
+    box-shadow: var(--box-shadow-elevation-3);
     padding-top: var(--spacing-xxxxl);
-    z-index:2;
+    z-index:101;
 
     &--show {
         transform: translateX(0);
     }
 
     &__close {
+      height: var(--topbar-height);
         position: absolute;
         right: 0;
         top: 0;

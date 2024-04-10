@@ -36,7 +36,7 @@
   --primary-surface-state-2: hsl(30, 5%, 20%);
   --primary-on-surface: hsl(30, 100%, 95%);
 
-  --secondary-surface: hsl(30, 5%, 17%);
+  --secondary-surface: hsl(30, 4%, 13%);
   --secondary-surface-state-1: hsl(26, 5%, 25%);
   --secondary-surface-state-2: hsl(33, 6%, 34%);
   --secondary-on-surface: hsl(36, 11%, 91%);
@@ -73,7 +73,7 @@
   --box-shadow-elevation-3: 0px 16px 32px hsla(0, 0%, 0%, 0.059);
 
   /* Element spacing */
-  --container-width: 70rem;
+  --container-width: 60rem;
   --border-radius: 8px;
   --breakpoint: 50rem;
   --topbar-height: 4rem;
