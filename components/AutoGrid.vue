@@ -12,26 +12,28 @@ const props = defineProps({
     default: null
   },
   maxWidth: {
-    type: Number,
-    default: 180
+    type: [null, String, Number],
+    default: null
   }
 })
 
-const maxWidth = computed(() => `${props.maxWidth}px`)
+const width = computed(() => `${props.maxWidth || 180}px`)
 </script>
 <style lang="scss" module>
 .grid {
   display: grid;
   align-items: stretch;
   justify-items: space-between;
-  grid-template-columns: repeat(auto-fill, minmax(v-bind('maxWidth'), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(v-bind('width'), 1fr));
   gap: var(--spacing-xl);
 
   &__item {
     background-color: var(--secondary-surface);
     height: 100%;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    object-fit: cover;
+    object-fit: contain;
     padding: var(--spacing-xl);
   }
 }
