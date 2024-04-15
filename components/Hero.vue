@@ -77,6 +77,7 @@ withDefaults(defineProps<Props>(), {
 
     & > * {
       object-fit: cover;
+      object-position: 50% 25%;
       height: 100%;
       width:  100%;
     }

@@ -34,7 +34,10 @@ export default defineNuxtConfig({
   image: {
     domains: [
       'a.storyblok.com'
-    ]
+    ],
+    storyblok: {
+      baseURL: 'https://a.storyblok.com'
+    }
   },
 
   pwa: {
