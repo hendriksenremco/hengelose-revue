@@ -1,5 +1,6 @@
 <template>
   <Button
+    v-editable="blok"
     :color="blok.color"
     :size="blok.size"
     :with-border="blok.withBorder"

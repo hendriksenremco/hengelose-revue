@@ -34,3 +34,8 @@ p {
   margin-bottom: 1rem;
   line-height: 1.5rem;
 }
+
+::selection {
+  color: var(--hr-black);
+  background: var(--hr-orange);
+}

@@ -1,7 +1,7 @@
 // @ts-nocheck
 export const useHrStoryblok = async (url, params) => {
   const route = useRoute()
-  const data = useState(url, () => ref(null))
+  const data = ref(null)
   const editMode = ref(false)
   const version = 'draft'
 
@@ -11,7 +11,7 @@ export const useHrStoryblok = async (url, params) => {
 
   onMounted(async () => {
     await nextTick()
-    if (data.value?.story && data.value.story.id) {
+    if (data.value?.story?.id) {
       await useStoryblokBridge(
         data.value.story.id,
         evStory => { data.value.story = evStory },

@@ -1,5 +1,10 @@
 <template>
-  <video ref="video" playsinline autoplay muted loop />
+  <video
+    ref="video"
+    playsinline
+    autoplay
+    muted
+    loop />
 </template>
 <script lang="ts" setup>
 import Hls from 'hls.js'
@@ -8,7 +13,8 @@ const props = defineProps<{
   src: string
 }>()
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick()
   if (video.value.canPlayType('application/vnd.apple.mpegurl')) {
     video.value.src = props.src
   } else {
@@ -17,4 +23,6 @@ onMounted(() => {
     hls.attachMedia(video.value)
   }
 })
+
+onActivated(() => video.value.play())
 </script>

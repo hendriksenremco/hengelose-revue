@@ -2,8 +2,9 @@
 - verhuur
 - video homepage
 - build pipeline
-
-
-hengeloserevue
-
-Ubxt554*3
+- socials
+- Flashbacks afgelopen jaren
+- Disciplines
+- Kleding en Decor
+- Zonnebloem avonden
+- Contact formulier

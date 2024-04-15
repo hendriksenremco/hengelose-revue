@@ -1,5 +1,5 @@
 <template>
-  <div v-editable="blok">
+  <div v-editable="blok" class="rich-text">
     <Vue3RuntimeTemplate :template="resolvedRichText" />
   </div>
 </template>
@@ -12,3 +12,8 @@ const resolvedRichText = computed(() => renderRichText(props.blok.text, {
   }
 }))
 </script>
+<style lang="scss">
+.rich-text {
+
+}
+</style>

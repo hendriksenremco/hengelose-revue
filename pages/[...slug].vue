@@ -1,8 +1,8 @@
 <template>
-  <StoryblokComponent v-if="story" :blok="story.content" />
+  <StoryblokComponent v-if="data.story" :blok="data.story.content" />
 </template>
 <script setup>
 const { slug } = useRoute().params
 const url = slug && slug.length > 0 ? slug.join('/') : 'home'
-const { story } = await useHrStoryblok('cdn/stories/' + url.replace(/\/$/, ''))
+const data = await useHrStoryblok('cdn/stories/' + url.replace(/\/$/, ''))
 </script>
