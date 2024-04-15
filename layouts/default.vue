@@ -26,6 +26,10 @@ useHead({
       key: 'description',
       name: 'description',
       content: 'Twentse humor met een hoog entertainment gehalte'
+    },
+    {
+      name: 'robots',
+      content: 'noindex'
     }
   ]
 })
