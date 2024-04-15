@@ -9138,7 +9138,14 @@ vue-virtual-scroller@2.0.0-beta.8:
     vue-observe-visibility "^2.0.0-alpha.1"
     vue-resize "^2.0.0-alpha.1"
 
-vue@^3.4.14, vue@^3.4.21:
+vue3-runtime-template@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vue3-runtime-template/-/vue3-runtime-template-1.0.2.tgz#0b27306d39481dad57276243ab7538050bc134aa"
+  integrity sha512-oquh7JFsbL9MuPqCehOufzgONVvBCmcLWCvVgBA5VreLpNGcQSmb9Bz0g9xqQ+ufdwZGQs+T111GbRyJfPYFQA==
+  dependencies:
+    vue "^3.0.0"
+
+vue@^3.0.0, vue@^3.4.14, vue@^3.4.21:
   version "3.4.21"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.21.tgz#69ec30e267d358ee3a0ce16612ba89e00aaeb731"
   integrity sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==
