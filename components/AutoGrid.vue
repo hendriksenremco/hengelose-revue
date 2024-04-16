@@ -22,18 +22,19 @@ const width = computed(() => `${props.maxWidth || 180}px`)
 <style lang="scss" module>
 .grid {
   display: grid;
-  align-items: stretch;
+  align-items: start;
   justify-items: space-between;
-  grid-template-columns: repeat(auto-fill, minmax(v-bind('width'), 1fr));
+  grid-template-columns: repeat(auto-fill,  minmax(v-bind('width'), 1fr));
   gap: var(--spacing-xl);
+  width: 100%;
+  container: grid / inline-size;
 
   &__item {
     height: 100%;
     align-items: center;
     justify-content: center;
+    max-width: 100cqw;
     display: flex;
-    object-fit: contain;
-
   }
 }
 </style>

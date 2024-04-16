@@ -37,7 +37,7 @@ withDefaults(defineProps<Props>(), {
   container: hero / inline-size;
 
   &:not(.hero--no-overlay)::after {
-    background: linear-gradient(0deg,  rgb(0 0 0 / 100%) 0%, rgb(0 0 0 / 100%) 50%, rgb(0 0 0 / 0%));
+    background: linear-gradient(0deg,  rgb(0 0 0 / 100%) 0%, rgb(0 0 0 / 100%) 30%, rgb(0 0 0 / 0%));
     content: '';
     display: block;
     position: absolute;

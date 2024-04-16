@@ -40,17 +40,20 @@ onClickOutside(root, () => emit('close'))
     background-color: var(--background-raised);
     box-shadow: var(--box-shadow-elevation-3);
     padding-top: var(--spacing-xxxxl);
-    z-index:101;
+    z-index: 101;
+    container: drawer / inline-size;
+    opacity: 0;
 
     &--show {
         transform: translateX(0);
+        opacity: 1;
     }
 
     &__close {
       height: var(--topbar-height);
-        position: absolute;
-        right: 0;
-        top: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
 }
 

@@ -56,11 +56,13 @@
         clip-path: view-box;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         gap: var(--spacing);
         height: var(--content-height);
         padding: var(--padding-y) var(--padding-x);
         position: relative;
         z-index: 0;
+        width: 100%;
     }
 
     &__icon {

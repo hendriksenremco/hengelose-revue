@@ -1,23 +1,20 @@
 <template>
   <div :class="$style['person']">
-    <div :class="$style['person__image']">
-      <NuxtImg provider="storyblok" format="webp" width="400" quality="10" :src="image" />
-    </div>
-    <div :class="$style['person__content']">
-      <h2 :class="$style['person__title']">
-        {{ name }}
-      </h2>
-      <h3 :class="$style['person__subtitle']">
-        {{ subtitle }}
-      </h3>
-      <p :class="$style['person__text']">
-        <slot />
-      </p>
-      <!-- <div :class="$style['person__button']">
-        <Button icon="ArrowRight" icon-pos="right" transparent>
-          Lees meer
-        </Button>
-      </div> -->
+    <div :class="$style['person__wrapper']">
+      <div :class="$style['person__image']">
+        <NuxtImg provider="storyblok" format="webp" width="400" quality="10" :src="image" />
+      </div>
+      <div :class="$style['person__content']">
+        <h2 :class="$style['person__title']">
+          {{ name }}
+        </h2>
+        <h3 :class="$style['person__subtitle']">
+          {{ subtitle }}
+        </h3>
+        <p :class="$style['person__text']">
+          <slot />
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -30,21 +27,29 @@ defineProps<{
 </script>
 <style lang="scss" module>
 .person {
+  container: person / inline-size;
+  width: 100%;
+
+  &__wrapper {
   background: var(--secondary-surface);
   display: flex;
   align-self: baseline;
   align-items: stretch;
-  height: 100%;
   width: 100%;
 
+    @container person (width < 25rem) {
+        flex-direction: column;
+    }
+  }
   &__image {
+    aspect-ratio: 1/1;
+    display: flex;
     height: 100%;
-    width: 250px;
     position: relative;
+
     img {
-      aspect-ratio: 2/1;
       object-fit: cover;
-      width: auto;
+      width: 100%;
       height: 100%;
     }
 

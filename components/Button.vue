@@ -59,7 +59,6 @@ defineProps({
   },
   rounded: {
     type: Boolean,
-
     default: false
   }
 })

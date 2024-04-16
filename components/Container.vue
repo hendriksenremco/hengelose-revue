@@ -38,7 +38,7 @@ defineProps({
   padding: 5rem 0 var(--spacing-l) 0;
 
   @media (width <= 70rem) {
-    padding: var(--spacing-l);
+    padding: var(--spacing);
     padding-top: calc(var(--topbar-height) + var(--spacing));
   }
 
