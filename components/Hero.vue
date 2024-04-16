@@ -59,7 +59,6 @@ withDefaults(defineProps<Props>(), {
   }
 
   &:before {
-    // background-color: hsla(29deg 100% 51% / 20%);
     background-image: url(/video-overlay.svg);
     background-size: 3px;
     content: '';

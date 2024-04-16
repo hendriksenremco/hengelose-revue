@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['person']">
     <div :class="$style['person__image']">
-      <NuxtImg :src="image" />
+      <NuxtImg provider="storyblok" format="webp" width="400" quality="10" :src="image" />
     </div>
     <div :class="$style['person__content']">
       <h2 :class="$style['person__title']">
@@ -13,11 +13,11 @@
       <p :class="$style['person__text']">
         <slot />
       </p>
-      <div :class="$style['person__button']">
+      <!-- <div :class="$style['person__button']">
         <Button icon="ArrowRight" icon-pos="right" transparent>
           Lees meer
         </Button>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -32,18 +32,38 @@ defineProps<{
 .person {
   background: var(--secondary-surface);
   display: flex;
+  align-self: baseline;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
 
   &__image {
-    aspect-ratio: 1/1;
-
+    height: 100%;
+    width: 250px;
+    position: relative;
     img {
+      aspect-ratio: 2/1;
       object-fit: cover;
-      width: 100%;
+      width: auto;
       height: 100%;
+    }
+
+    &:before {
+      background-image: url(/video-overlay.svg);
+      background-size: 3px;
+      content: '';
+      position: absolute;
+      inset: 0;
+      width: auto;
+      height: auto;
+      z-index: 1;
+      opacity: 0.2;
     }
   }
 
   &__content {
+    display: flex;
+    flex-direction: column;
     padding: var(--spacing-l);
     width: 100%;
   }
@@ -78,7 +98,8 @@ defineProps<{
   &__button {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;;
+    align-items: flex-end;
+    margin-top: auto;
     width: 100%;
   }
 }

@@ -28,13 +28,12 @@ const width = computed(() => `${props.maxWidth || 180}px`)
   gap: var(--spacing-xl);
 
   &__item {
-    background-color: var(--secondary-surface);
     height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     object-fit: contain;
-    padding: var(--spacing-xl);
+
   }
 }
 </style>
