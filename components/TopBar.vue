@@ -39,6 +39,10 @@
     &__content {
         display: flex;
 
+        & * {
+          min-height: 100%;
+        }
+
         @container (width < 70rem) {
             display: none;
         }

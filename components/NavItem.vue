@@ -39,11 +39,22 @@ const onClick = event => {
   }
 }
 
-watch(() => route.fullPath, () => { showSub.value = false })
+onMounted(() => {
+  if (route.fullPath.includes(props.to.path)) {
+    showSub.value = true
+  }
+})
+
+watch(() => route.fullPath, () => {
+  showSub.value = false
+  if (route.fullPath.includes(props.to.path)) {
+    showSub.value = true
+  }
+})
 </script>
 <style lang="scss" module>
 .nav-item {
-    height: var(--topbar-height);
+
     font-family: var(--font-family-slab);
     font-weight: var(--font-weight-bold);
     position: relative;
@@ -68,16 +79,21 @@ watch(() => route.fullPath, () => { showSub.value = false })
       opacity: 0;
       right: 0;
 
-      &--show {
-        opacity: 1;
-      }
-
       @container (width < 70rem) {
         box-shadow: none;
-        opacity: 1;
-        position: relative;
+        opacity: 0;
+        height: 0;
+        position: static;
         width: 100%;
         padding-left: var(--spacing-xl);
+      }
+
+      &--show {
+        opacity: 1;
+
+        @container (width < 70rem) {
+          height: auto;
+        }
       }
     }
 }
