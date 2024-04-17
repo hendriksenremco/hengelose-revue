@@ -1,16 +1,22 @@
 <template>
   <div :class="$style['gallery-viewer']">
     <IconButton icon="X" :class="$style['gallery-viewer__close']" @click="$emit('close')" />
-    <div :class="$style['gallery-viewer__items']" @click="$emit('close')">
-      <div v-for="image in items" ref="itemsEl" :key="image.id" :class="$style['gallery-viewer__item']">
+    <div ref="wrapper" :class="$style['gallery-viewer__items']" @click="$emit('close')">
+      <div v-for="(image, index) in items" ref="itemsEl" :key="image.id" :data-index="index" :class="$style['gallery-viewer__item']">
         <NuxtImg provider="storyblok" :src="image.filename" />
       </div>
+    </div>
+    <div :class="$style['gallery-viewer__navigator']">
+      <div v-for="(image, index) in items" :key="index" :class="[$style['gallery-viewer__navigator__item'], {[$style['gallery-viewer__navigator__item--visible']]: visibleIndex === index}]" />
     </div>
   </div>
 </template>
 <script setup lang="ts">
 defineEmits(['close'])
+const wrapper = ref(null)
 const itemsEl = ref(null)
+const visibleIndex = ref(0)
+const intersectionObserver = ref(null)
 const props = defineProps<{
   items: Array<any>
   active: number | null
@@ -20,7 +26,18 @@ onMounted(() => {
   if (props.active && itemsEl.value) {
     itemsEl.value[props.active - 1].scrollIntoView() // Gallery sends index + 1 to prevent null-errors
   }
-  console.log(itemsEl)
+
+  intersectionObserver.value = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        console.log(entry)
+        visibleIndex.value = parseInt(entry.target.dataset.index)
+      }
+    })
+  }, { rootMargin: '10px', threshold: 0.5 })
+  itemsEl.value.forEach(item => {
+    intersectionObserver.value.observe(item)
+  })
 })
 </script>
 <style lang="scss" module>
@@ -41,6 +58,10 @@ onMounted(() => {
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   &__item {
@@ -62,6 +83,32 @@ onMounted(() => {
     position: fixed;
     top: var(--spacing);
     right: var(--spacing);
+  }
+
+  &__navigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: var(--spacing);
+    position: fixed;
+    bottom : var(--spacing);
+    width: 100cqw;
+    height: 4rem;
+
+    &__item {
+      background-color: var(--text-base);
+      border-radius: 100%;
+      width: .5rem;
+      height: .5rem;
+      opacity: 0.5;
+      transition: all var(--duration-micro-normal) var(--easing-transition);
+
+      &--visible {
+        background: var(--text-base);
+        opacity: 1;
+      }
+    }
   }
 }
 </style>
