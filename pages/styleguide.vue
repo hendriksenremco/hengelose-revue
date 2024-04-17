@@ -1,13 +1,18 @@
 <template>
   <Container>
-    <Person image="/bertus.jpg" name="Remco Hendriksen" subtitle="Muzikaal leider">
-      Alles in dienst van het grote plaatje
-    </Person>
-    <Person image="/bertus.jpg" name="Remco Hendriksen" subtitle="Muzikaal leider">
-      Alles in dienst van het grote plaatje
-    </Person>
-    <Person image="/bertus.jpg" name="Remco Hendriksen" subtitle="Muzikaal leider">
-      Alles in dienst van het grote plaatje
-    </Person>
+    <FormInput v-model="name" type="text" label="Naam" />
+    <FormInput v-model="email" type="email" label="Email" />
+    <FormInput v-model="phone" type="phone" label="Telefoonummer" />
+    <FormTextarea v-model="message" type="phone" label="Bericht" />
+    {{ name }}
+    {{ email }}
+    {{ phone }}
+    {{ message }}
   </Container>
 </template>
+<script setup lang="ts">
+const name = ref(null)
+const email = ref(null)
+const phone = ref(null)
+const message = ref(null)
+</script>

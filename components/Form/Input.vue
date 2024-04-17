@@ -1,0 +1,40 @@
+<template>
+  <label :class="$style['form-input']">
+    <div :class="$style['form-input__label']">
+      {{ label }}
+    </div>
+    <input v-model="model" v-bind="$attrs":class="$style['form-input__input']">
+  </label>
+</template>
+<script setup lang="ts">
+const model = useModel()
+defineProps<{
+  label?: string
+}>()
+</script>
+<style lang="scss" module>
+.form-input {
+  &__label {
+    font-size: var(--font-size);
+    font-family: var(--font-family-slab);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-s);
+  }
+
+  &__input {
+    border: 0;
+    outline: 0;
+    background-color: var(--background-subtle);
+    color: var(--text-base);
+    border: 1px solid var(--border-subtle);
+    padding: var(--spacing-m);
+    font-size: var(--font-size);
+    outline: none;
+
+    &:focus  {
+      border-color: var(--hr-orange);
+    }
+  }
+
+}
+</style>
