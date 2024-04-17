@@ -46,7 +46,7 @@
   --primary-cta-state-2: hsl(28deg 100% 39%);
   --primary-cta-on-base: hsl(28deg 100% 100%);
 
-  --curtain: rgb(0 0 0 / 50%);
+  --curtain: rgb(0 0 0 / 60%);
 
   /* Borders */
   --border-subtle: hsl(0deg 0% 100% / 14.1%);

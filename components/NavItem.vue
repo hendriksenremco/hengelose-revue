@@ -40,16 +40,15 @@ const onClick = event => {
 }
 
 onMounted(() => {
-  if (route.fullPath.includes(props.to.path)) {
-    showSub.value = true
-  }
+
 })
 
 watch(() => route.fullPath, () => {
   showSub.value = false
-  if (route.fullPath.includes(props.to.path)) {
-    showSub.value = true
-  }
+  // @TODO check for mobile here
+  // if (route.fullPath.includes(props.to.path)) {
+  //   showSub.value = true
+  // }
 })
 </script>
 <style lang="scss" module>
@@ -77,6 +76,7 @@ watch(() => route.fullPath, () => {
       flex-direction: column;
       position: absolute;
       opacity: 0;
+      pointer-events: none;
       right: 0;
 
       @container (width < 70rem) {
@@ -90,6 +90,7 @@ watch(() => route.fullPath, () => {
 
       &--show {
         opacity: 1;
+        pointer-events: all;
 
         @container (width < 70rem) {
           height: auto;
