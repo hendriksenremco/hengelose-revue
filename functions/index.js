@@ -6,50 +6,50 @@
  *
  * See a full list of supported triggers at https://firebase.google.com/docs/functions
  */
-const StoryblokClient  = require("storyblok-js-client");
-const { setGlobalOptions } = require("firebase-functions/v2");
-const { onRequest } = require("firebase-functions/v2/https");
-const admin = require('firebase-admin');
+const StoryblokClient = require("storyblok-js-client")
+const { setGlobalOptions } = require("firebase-functions/v2")
+const { onRequest } = require("firebase-functions/v2/https")
+const admin = require("firebase-admin")
 
-setGlobalOptions({region:'europe-west3'})
+setGlobalOptions({ region: "europe-west3" })
 admin.initializeApp()
 const db = admin.firestore()
-db.settings({ ignoreUndefinedProperties: true})
+db.settings({ ignoreUndefinedProperties: true })
 
-exports.getStoryblok = onRequest({cors: true}, (request, response) => {
-  const urlKey = request.originalUrl.replace(/\//g, '-');
+exports.getStoryblok = onRequest({ cors: true }, (request, response) => {
+  const urlKey = request.originalUrl.replace(/\//g, "-")
   const Storyblok = new StoryblokClient({
-    accessToken: "Jehol4gVSqVfcrlkszKyhgtt"
-  });
+    accessToken: "Jehol4gVSqVfcrlkszKyhgtt",
+  })
 
-  db.collection('storyblok').doc(urlKey).get().then(doc => {
-    console.log('from firestore')
+  db.collection("storyblok").doc(urlKey).get().then((doc) => {
+    console.log("from firestore")
     const snapshot = doc.data()
     response.send(snapshot.data)
   }).catch((err) => {
-    console.log('from storyblok')
-    Storyblok.get(request.path, {...request.query}).then(data => {
-      db.collection('storyblok').doc(urlKey).set({ 
+    console.log("from storyblok")
+    Storyblok.get(request.path, { ...request.query }).then((data) => {
+      db.collection("storyblok").doc(urlKey).set({
         data: data.data,
-        timestamp: Date.now()
+        timestamp: new Date(),
       })
       response.send(data.data)
-    }).catch(err => {
+    }).catch((err) => {
       response.send(err)
       console.log(err)
     })
   })
-});
+})
 
-exports.purgeStoryblok = onRequest({cors: true}, (request, response) => {
+exports.purgeStoryblok = onRequest({ cors: true }, (request, response) => {
   const inputSlug = request.body.full_slug
 
-  if(!inputSlug) {
-    return response.send('no purge')
+  if (!inputSlug) {
+    return response.send("no purge")
   }
 
-  db.collection('storyblok').get().then((querySnapshot) => {
-    querySnapshot.forEach(doc => {
+  db.collection("storyblok").get().then((querySnapshot) => {
+    querySnapshot.forEach((doc) => {
       let shouldDelete = false
       const data = doc.data()
 
@@ -57,26 +57,35 @@ exports.purgeStoryblok = onRequest({cors: true}, (request, response) => {
         shouldDelete = true
       }
 
-      if(data.data.stories) {
-        data.data.stories.forEach(story => {
-          if(story.full_slug === inputSlug) {
+      if (data.data.stories) {
+        data.data.stories.forEach((story) => {
+          if (story.full_slug === inputSlug) {
             shouldDelete = true
           }
         })
       }
 
-      if(shouldDelete) {
-        console.log('should delete', doc.id)
+      if (shouldDelete) {
+        console.log("should delete", doc.id)
         db.collection("storyblok").doc(doc.id).delete()
       }
     })
 
-    response.send('purge')
+    response.send("purge")
   })
-  .catch(error => {
-    console.log(error)
-  })
-  // const urlKey = request.originalUrl.replace(/\//g, '-')
-  // db.collection('storyblok').doc(urlKey).delete()
-  // response.send("Purge");
-});
+      .catch((error) => {
+        console.log(error)
+      })
+})
+
+exports.submitForm = onRequest({ cors: true }, async (request, response) => {
+  try {
+    await db.collection("form-submissions").add({
+      timestamp: new Date(),
+      ...request.body,
+    })
+    response.send("ok")
+  } catch (error) {
+    response.send("error", error)
+  }
+})

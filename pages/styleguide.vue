@@ -1,13 +1,10 @@
 <template>
   <Container>
-    <FormInput v-model="name" type="text" label="Naam" />
+    <ContactForm title="Contact formulier" />
+    <!-- <FormInput v-model="name" type="text" label="Naam" />
     <FormInput v-model="email" type="email" label="Email" />
     <FormInput v-model="phone" type="phone" label="Telefoonummer" />
-    <FormTextarea v-model="message" type="phone" label="Bericht" />
-    {{ name }}
-    {{ email }}
-    {{ phone }}
-    {{ message }}
+    <FormTextarea v-model="message" type="phone" label="Bericht" /> -->
   </Container>
 </template>
 <script setup lang="ts">

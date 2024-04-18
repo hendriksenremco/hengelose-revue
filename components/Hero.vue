@@ -99,13 +99,17 @@ withDefaults(defineProps<Props>(), {
 
   &__content {
     text-align: center;
-    margin-bottom: var(--spacing-xxxl);
     position: relative;
+    margin-bottom: var(--spacing-xxxl);
     z-index: 1;
     text-shadow: 2px 4px 20px var(--hr-black);
 
     @container hero (width >= 70rem) {
       text-align: right;
+
+      h1 {
+        font-size: var(--font-size-huge);
+      }
     }
   }
 

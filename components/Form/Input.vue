@@ -7,7 +7,7 @@
   </label>
 </template>
 <script setup lang="ts">
-const model = useModel()
+const model = defineModel()
 defineProps<{
   label?: string
 }>()
@@ -16,7 +16,7 @@ defineProps<{
 .form-input {
   &__label {
     font-size: var(--font-size);
-    font-family: var(--font-family-slab);
+    // font-family: var(--font-family-slab);
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--spacing-s);
   }
@@ -30,6 +30,7 @@ defineProps<{
     padding: var(--spacing-m);
     font-size: var(--font-size);
     outline: none;
+    min-width: 300px;
 
     &:focus  {
       border-color: var(--hr-orange);
