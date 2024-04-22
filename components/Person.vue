@@ -32,6 +32,7 @@ defineProps<{
 
   &__wrapper {
   background: var(--secondary-surface);
+  color: var(--secondary-on-surface);
   display: flex;
   align-self: baseline;
   align-items: stretch;
@@ -74,7 +75,7 @@ defineProps<{
   }
 
   &__title {
-    // color: var(--hr-orange);
+    // color: var(--color-primary);
     font-family: var(--font-family-slab);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-bold);

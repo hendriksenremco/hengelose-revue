@@ -23,7 +23,7 @@ body {
 }
 
 a {
-    color: var(--hr-orange);
+    color: var(--color-primary);
 }
 
 h1,h2,h3,h4,h5 {
@@ -38,5 +38,5 @@ p {
 
 ::selection {
   color: var(--hr-black);
-  background: var(--hr-orange);
+  background: var(--color-primary);
 }

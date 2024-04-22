@@ -14,6 +14,7 @@ defineProps<{
 </script>
 <style lang="scss" module>
 .form-input {
+  width: 100%;
   &__label {
     font-size: var(--font-size);
     // font-family: var(--font-family-slab);
@@ -24,16 +25,17 @@ defineProps<{
   &__input {
     border: 0;
     outline: 0;
-    background-color: var(--background-subtle);
+    background-color: transparent;
     color: var(--text-base);
     border: 1px solid var(--border-subtle);
     padding: var(--spacing-m);
     font-size: var(--font-size);
     outline: none;
-    min-width: 300px;
+    min-width: 250px;
+    width: 100%;
 
     &:focus  {
-      border-color: var(--hr-orange);
+      border-color: var(--light-color-60);
     }
   }
 

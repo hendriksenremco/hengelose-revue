@@ -98,6 +98,7 @@ withDefaults(defineProps<Props>(), {
   }
 
   &__content {
+    color: var(--hero-text-color);
     text-align: center;
     position: relative;
     margin-bottom: var(--spacing-xxxl);

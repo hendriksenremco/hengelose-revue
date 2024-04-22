@@ -5,7 +5,8 @@
 </template>
 <style lang="scss" module>
 .box {
-  background: linear-gradient(0deg, var(--background-base), var(--hr-red));
+  background: var(--gradient-surface);
+  color: var(--gradient-on-surface);
   padding: var(--spacing-l);
   position: relative;
 

@@ -88,18 +88,12 @@
     }
 
     &--cta {
-        background: var(--hr-gradient);
-
-        &:hover {
-            --background-color: var(--primary-cta-state-1);
-        }
-        &:active {
-            --background-color: var(--primary-cta-state-2);
-        }
+        background: var(--cta-gradient);
+        color: var(--primary-cta-on-base);
     }
 
     &--with-border {
-      box-shadow: inset 0px 0px 0px 1px var(--text-base);
+      box-shadow: inset 0px 0px 0px 1px var(--border-subtle);
       color: var(--text-base);
     }
 

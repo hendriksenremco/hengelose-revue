@@ -41,14 +41,9 @@ defineProps<{
     }
 
     &:hover {
-        --background-color: var(--primary-surface-state-1);
         &:before {
-            transform: translateY(-100%) translateZ(0);
+          transform: translateY(-100%) translateZ(0);
         }
-    }
-
-    &:active {
-        --background-color: var(--primary-surface-state-2);
     }
 
     img {

@@ -21,13 +21,15 @@ defineProps<{
 <style lang="scss" module>
 .card {
   background-color: var(--secondary-surface);
-  color: var(--text-base);
+  color: var(--secondary-on-surface);
   display: inline-block;
-  box-shadow: var(--box-shadow-elevation-3);
+  box-shadow: var(--box-shadow-elevation-1);
   text-decoration: none;
+  transition: all var(--duration-micro-fast) var(--easing-transition);
 
   &[href]:hover {
-    color: var(--hr-orange);
+    color: var(--color-primary);
+    box-shadow: var(--box-shadow-elevation-3);
   }
 
   &__image {

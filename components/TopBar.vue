@@ -16,6 +16,8 @@
 <style lang="scss" module>
 .top-bar {
     background-color: var(--secondary-surface);
+    color: var(--secondary-on-surface);
+    box-shadow: var(--box-shadow-elevation-1);
     display: flex;
     align-items: stretch;
     justify-content: space-between;
