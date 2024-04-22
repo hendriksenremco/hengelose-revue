@@ -2,7 +2,7 @@
   <div :class="$style['nav-item']">
     <Button
       styleless
-      :color="isActive ? 'cta': 'transparent'"
+      :color="isActive ? 'cta': isChildActive ? 'opacity': 'transparent'"
       :class="$style['nav-item']"
       :icon="!!$slots.subitems ? 'ChevronDown' : null"
       icon-pos="right"
@@ -13,23 +13,33 @@
     <div
       :class="[
         $style['nav-item__submenu'],
-        {[$style['nav-item__submenu--show']]: showSub}
+        {[$style['nav-item__submenu--show']]: showSub || (isChildActive && isMobile)}
       ]">
       <slot name="subitems" />
     </div>
   </div>
 </template>
 <script setup>
+import { AppWindowMac } from 'lucide-vue-next'
+
 const slots = useSlots()
 const props = defineProps({
   to: {
     type: Object,
     default: null
+  },
+  isActive: {
+    type: Boolean,
+    default: false
+  },
+  isChildActive: {
+    type: Boolean,
+    default: false
   }
 })
 const showSub = ref(false)
 const route = useRoute()
-const isActive = computed(() => route.path === props.to.path || route.name === props.to.name)
+const isMobile = ref(false)
 
 const onClick = event => {
   if (slots.subitems) {
@@ -40,7 +50,10 @@ const onClick = event => {
 }
 
 onMounted(() => {
-
+  const observer = new ResizeObserver(() => {
+    isMobile.value = window.matchMedia('(max-width: 70rem)').matches
+  })
+  observer.observe(document.body)
 })
 
 watch(() => route.fullPath, () => {

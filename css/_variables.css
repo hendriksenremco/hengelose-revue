@@ -27,9 +27,9 @@
   --background-raised: hsl(30, 5%, 17%);
   --background-subtle: hsl(40, 4%, 14%);
 
-  --opacity-surface: hsla(0, 0%, 10%, 0.5);
-  --opacity-surface-state-1: hsla(0, 0%, 50%, 0.149);
-  --opacity-surface-state-2: hsla(0, 0%, 50%, 0.2);
+  --opacity-surface: hsla(0, 0%, 100%, 0.14);
+  --opacity-surface-state-1: hsla(0, 0%, 100%, 0.149);
+  --opacity-surface-state-2: hsla(0, 0%, 100%, 0.2);
 
   --primary-surface: hsl(30, 4%, 10%);
   --primary-surface-state-1: hsl(30, 5%, 15%);
