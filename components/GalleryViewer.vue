@@ -9,6 +9,28 @@
     <div :class="$style['gallery-viewer__navigator']">
       <div v-for="(image, index) in items" :key="index" :class="[$style['gallery-viewer__navigator__item'], {[$style['gallery-viewer__navigator__item--visible']]: visibleIndex === index}]" />
     </div>
+    <div
+      :class="[
+        $style['gallery-viewer__prev'],
+        {[$style['gallery-viewer__prev--disabled']]: visibleIndex === 0}
+      ]"
+      @click="goPrev">
+      <IconButton
+        icon="ChevronLeft"
+        color="opacity"
+        rounded />
+    </div>
+    <div
+      :class="[
+        $style['gallery-viewer__next'],
+        {[$style['gallery-viewer__next--disabled']]: visibleIndex === items.length - 1}
+      ]"
+      @click="goNext">
+      <IconButton
+        icon="ChevronRight"
+        color="opacity"
+        rounded />
+    </div>
   </div>
 </template>
 <script setup lang="ts">
@@ -21,6 +43,13 @@ const props = defineProps<{
   items: Array<any>
   active: number | null
 }>()
+
+const goPrev = () => {
+  itemsEl.value[visibleIndex.value - 1].scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' })
+}
+const goNext = () => {
+  itemsEl.value[visibleIndex.value + 1].scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' })
+}
 
 onMounted(() => {
   if (props.active && itemsEl.value) {
@@ -110,5 +139,30 @@ onMounted(() => {
       }
     }
   }
+
+  &__prev,
+  &__next {
+    display: flex;
+    align-items: center;
+    padding: 0 var(--spacing-xl);
+    position: fixed;
+    top: var(--topbar-height);
+    bottom: 0;
+    z-index: 100;
+    transition: opacity var(--duration-micro-normal) var(--easing-transition);
+
+    &--disabled {
+      opacity: 0.25;
+    }
+  }
+
+  &__prev {
+    left:0;
+  }
+
+  &__next {
+    right: 0;
+  }
+
 }
 </style>

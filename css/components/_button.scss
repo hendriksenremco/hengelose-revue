@@ -84,7 +84,7 @@
     }
 
     &--rounded {
-        border-radius: var(--border-radius);
+        border-radius: 100%;
     }
 
     &--cta {
@@ -113,6 +113,10 @@
           height: auto;
           // padding: 0;
       }
+    }
+
+    &--opacity {
+      background-color: var(--opacity-surface);
     }
 
     &--transparent {

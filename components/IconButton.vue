@@ -1,5 +1,11 @@
 <template>
-  <button :class="[$style['button'], {[$style[`button--${color}`]]: color}]">
+  <button
+    :class="[
+      $style['button'],
+      {[$style[`button--with-border`]]: withBorder},
+      {[$style[`button--rounded`]]: rounded},
+      {[$style[`button--${color}`]]: color}
+    ]">
     <span :class="$style['button__content']">
       <span :class="$style['button__icon']">
         <Icon :name="icon" />
@@ -17,6 +23,14 @@ defineProps({
   icon: {
     type: String,
     default: null
+  },
+  withBorder: {
+    type: Boolean,
+    default: null
+  },
+  rounded: {
+    type: Boolean,
+    default: false
   }
 })
 </script>
