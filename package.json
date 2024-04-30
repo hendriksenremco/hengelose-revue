@@ -17,6 +17,7 @@
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@storyblok/nuxt": "^6.0.6",
     "@types/node": "^20.11.5",
+    "@vee-validate/zod": "^4.12.6",
     "@vite-pwa/assets-generator": "^0.2.4",
     "@vite-pwa/nuxt": "^0.6.0",
     "@vueuse/core": "^10.9.0",
@@ -36,9 +37,12 @@
     "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-selector-bem-pattern": "^4.0.0",
     "typescript": "^5.3.3",
+    "vee-validate": "^4.12.6",
     "vite-svg-loader": "^5.1.0",
     "vue": "^3.4.14",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "yup": "^1.4.0",
+    "zod": "^3.23.5"
   },
   "dependencies": {
     "hls.js": "^1.5.7",

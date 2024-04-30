@@ -40,6 +40,7 @@
   --light-color-70: hsl(var(--secondary-hue), 2%, 80%);
   --light-color-80: hsl(var(--secondary-hue), 2%, 85%);
   --light-color-90: hsl(var(--secondary-hue), 2%, 90%);
+  --light-color-100: hsl(var(--secondary-hue), 2%, 95%);
 
   --dark-color-10: hsl(var(--primary-hue), 2%, 5%);
   --dark-color-20: hsl(var(--primary-hue), 2%, 10%);
@@ -124,4 +125,36 @@
   --border-radius: 8px;
   --breakpoint: 50rem;
   --topbar-height: 4rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+
+    --text-base: var(--dark-color-20);
+    --text-subtle: var(--dark-color-50);
+  
+    --background-base: var(--light-color-80);
+    --background-raised: var(--light-color-70);
+    --background-subtle: var(--light-color-50);
+    
+    --primary-surface: var(--light-color-10);
+    --primary-surface-state-1: var(--light-color-20);
+    --primary-surface-state-2: var(--light-color-30);
+    --primary-on-surface: var(--dark-color-60);
+  
+    --secondary-surface: var(--light-color-100);
+    --secondary-surface-state-1: var(--light-color-80);
+    --secondary-surface-state-2: var(--light-color-70);
+    --secondary-on-surface: var(--dark-color-40);
+  
+    --gradient-surface: linear-gradient(0deg, var(--light-color-90), var(--secondary-color-50));
+    --gradient-on-surface: hsl(var(--secondary-hue), 50%, 10%);
+  
+    --hero-text-color: var(--light-color-90);
+  
+    --curtain: hsla(var(--secondary-hue), 92%, 6%, 0.75);
+  
+
+    --border-subtle: var(--light-color-70);
+  }
 }

@@ -1,16 +1,22 @@
 <template>
-  <label :class="$style['form-input']">
+  <label :class="[$style['form-input'], {[$style['form-input--error']]: meta.dirty && !meta.valid }]">
     <div :class="$style['form-input__label']">
       {{ label }}
     </div>
-    <textarea v-model="model" v-bind="$attrs" :class="$style['form-input__input']" />
+    <textarea v-model="value" v-bind="$attrs" :class="$style['form-input__input']" />
+    <div v-if="errors.length" :class="$style['form-input__errors']">
+      {{ errors[0] }}
+    </div>
   </label>
 </template>
 <script setup lang="ts">
-const model = defineModel()
-defineProps<{
+import { useField } from 'vee-validate'
+const props = defineProps<{
+  name: string
   label?: string
 }>()
+
+const { value, errors, meta } = useField(() => props.name)
 </script>
 <style lang="scss" module>
 .form-input {
@@ -37,6 +43,19 @@ defineProps<{
 
     &:focus  {
       border-color: var(--color-primary);
+    }
+  }
+
+  &__errors {
+    color: var(--primary-color-50);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    padding: var(--spacing) 0;
+  }
+
+  &--error {
+    .form-input__input {
+      border-bottom-color: var(--primary-color-50);
     }
   }
 

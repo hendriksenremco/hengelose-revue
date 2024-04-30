@@ -9,7 +9,6 @@
 
     background-color: var(--background-color);
     border: 0;
-
     cursor: pointer;
     color: var(--color);
     display: inline-flex;
@@ -93,7 +92,7 @@
     }
 
     &--with-border {
-      box-shadow: inset 0px 0px 0px 1px var(--border-subtle);
+      box-shadow: inset 0px 0px 0px 1px var(--text-subtle);
       color: var(--text-base);
     }
 
