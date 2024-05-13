@@ -54,8 +54,7 @@ onMounted(() => {
 .word {
   font-weight: var(--font-weight-bold);
   display: inline-flex;
-  align-items: flex-end;
-
+  align-items: flex-start;
   position: absolute;
   white-space: nowrap;
   vertical-align: baseline;
@@ -68,6 +67,7 @@ onMounted(() => {
 .row {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   vertical-align: bottom;
 }
 

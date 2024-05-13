@@ -105,11 +105,15 @@ withDefaults(defineProps<Props>(), {
     z-index: 1;
     text-shadow: 2px 4px 20px var(--hr-black);
 
+    h1 {
+        font-size: var(--font-size-large);
+      }
+
     @container hero (width >= 70rem) {
       text-align: right;
 
       h1 {
-        font-size: var(--font-size-huge);
+        font-size: var(--font-size-xlarge);
       }
     }
   }
@@ -123,8 +127,18 @@ withDefaults(defineProps<Props>(), {
     position: relative;
     z-index: 1;
 
+    & > * {
+        flex: 1;
+        width: 100%;
+      }
+
     @container hero (width >= 70rem) {
       flex-direction: row;
+
+      & > * {
+        flex: unset;
+        width: auto;
+      }
     }
   }
 

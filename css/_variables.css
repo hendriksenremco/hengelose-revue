@@ -40,18 +40,18 @@
   --light-color-70: hsl(var(--secondary-hue), 2%, 80%);
   --light-color-80: hsl(var(--secondary-hue), 2%, 85%);
   --light-color-90: hsl(var(--secondary-hue), 2%, 90%);
-  --light-color-100: hsl(var(--secondary-hue), 2%, 95%);
+  --light-color-100: hsl(var(--secondary-hue), 2%, 100%);
 
-  --dark-color-10: hsl(var(--primary-hue), 2%, 5%);
-  --dark-color-20: hsl(var(--primary-hue), 2%, 10%);
-  --dark-color-30: hsl(var(--primary-hue), 2%, 15%);
-  --dark-color-40: hsl(var(--primary-hue), 2%, 20%);
-  --dark-color: hsl(var(--primary-hue), 2%, 25%);
-  --dark-color-50: hsl(var(--primary-hue), 2%, 25%);
-  --dark-color-60: hsl(var(--primary-hue), 2%, 30%);
-  --dark-color-70: hsl(var(--primary-hue), 2%, 35%);
-  --dark-color-80: hsl(var(--primary-hue), 2%, 40%);
-  --dark-color-90: hsl(var(--primary-hue), 2%, 45%);
+  --dark-color-10: hsl(var(--primary-hue), 1%, 5%);
+  --dark-color-20: hsl(var(--primary-hue), 1%, 10%);
+  --dark-color-30: hsl(var(--primary-hue), 1%, 15%);
+  --dark-color-40: hsl(var(--primary-hue), 1%, 20%);
+  --dark-color: hsl(var(--primary-hue), 1%, 25%);
+  --dark-color-50: hsl(var(--primary-hue), 1%, 25%);
+  --dark-color-60: hsl(var(--primary-hue), 1%, 30%);
+  --dark-color-70: hsl(var(--primary-hue), 1%, 35%);
+  --dark-color-80: hsl(var(--primary-hue), 1%, 40%);
+  --dark-color-90: hsl(var(--primary-hue), 1%, 45%);
 
   /* Font variables */
   --font-family: 'Montserrat', sans-serif;
@@ -68,7 +68,7 @@
   --line-height-small: 20px;
 
   /* Surfaces */
-  --text-base: var(--light-color-90);
+  --text-base: var(--light-color-100);
   --text-subtle: var(--light-color-50);
 
   --background-base: var(--dark-color-10);
@@ -84,13 +84,14 @@
   --primary-surface-state-2: var(--dark-color-30);
   --primary-on-surface: var(--light-color-60);
 
-  --secondary-surface: var(--dark-color-30);
+  --secondary-surface: var(--dark-color-20);
   --secondary-surface-state-1: var(--dark-color-40);
   --secondary-surface-state-2: var(--dark-color-50);
   --secondary-on-surface: var(--light-color-90);
 
   --gradient-surface: linear-gradient(0deg, var(--dark-color-10), var(--secondary-color));
-  --gradient-on-surface: hsl(var(--secondary-hue), 50%, 90%);
+  --gradient-on-surface: var(--text-base);
+  /* --gradient-on-surface: hsl(var(--secondary-hue), 50%, 90%); */
 
   --hero-text-color: var(--light-color-90);
 

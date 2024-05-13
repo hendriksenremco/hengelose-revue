@@ -1,7 +1,7 @@
 <template>
   <blockquote :class="$style['quote']">
     <picture v-if="image" :class="$style['quote__image']">
-      <img :src="image">
+      <NuxtImg :src="image" />
     </picture>
 
     <div :class="$style['quote__content']">

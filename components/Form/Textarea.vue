@@ -3,7 +3,7 @@
     <div :class="$style['form-input__label']">
       {{ label }}
     </div>
-    <textarea v-model="value" v-bind="$attrs" :class="$style['form-input__input']" />
+    <textarea v-model.lazy="value" v-bind="$attrs" :class="$style['form-input__input']" />
     <div v-if="errors.length" :class="$style['form-input__errors']">
       {{ errors[0] }}
     </div>
@@ -37,7 +37,6 @@ const { value, errors, meta } = useField(() => props.name)
     padding: var(--spacing-m);
     font-size: var(--font-size);
     outline: none;
-    min-width: 250px;
     resize: none;
     width: 100%;
 

@@ -17,16 +17,16 @@ defineProps({ blok: Object })
 <style lang="scss" module>
 .layout {
   display: grid;
-  grid-template-columns: 1fr 25rem;
+  grid-template-columns: minmax(0, 1fr) 25rem;
   gap: var(--spacing-xxl);
+  min-width: 0;
 
   @media (max-width: 70rem) {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     padding: var(--spacing-xl);
   }
 
   &__aside {
-    // background-color: var(--background-subtle);
     padding: var(--spacing-l);
   }
 }

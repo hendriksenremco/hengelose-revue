@@ -9,6 +9,9 @@
     </Hero>
   </Container>
   <Container>
+    <Button :to="{name: 'nieuws'}" icon="ArrowLeft" icon-pos="left" class="h-margin-bottom-xl">
+      Nieuws
+    </Button>
     <article v-html="resolvedRichText" />
   </Container>
 </template>

@@ -16,6 +16,9 @@
 :global(.h-margin-bottom) {
   margin-bottom: var(--spacing);
 }
+:global(.h-margin-bottom-l) {
+  margin-bottom: var(--spacing-l);
+}
 :global(.h-margin-bottom-xl) {
   margin-bottom: var(--spacing-xl);
 }

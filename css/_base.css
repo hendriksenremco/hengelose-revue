@@ -37,6 +37,5 @@ p {
 }
 
 ::selection {
-  color: var(--hr-black);
-  background: var(--color-primary);
+  background-color: var(--primary-color-50);
 }

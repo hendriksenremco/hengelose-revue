@@ -54,17 +54,6 @@ defineProps<{
       height: 100%;
     }
 
-    &:before {
-      background-image: url(/video-overlay.svg);
-      background-size: 3px;
-      content: '';
-      position: absolute;
-      inset: 0;
-      width: auto;
-      height: auto;
-      z-index: 1;
-      opacity: 0.2;
-    }
   }
 
   &__content {

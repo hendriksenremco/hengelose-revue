@@ -1,6 +1,6 @@
 <template>
   <div :class="$style['gallery-viewer']">
-    <IconButton icon="X" :class="$style['gallery-viewer__close']" @click="$emit('close')" />
+    <Button icon-only icon="X" :class="$style['gallery-viewer__close']" @click="$emit('close')" />
     <div ref="wrapper" :class="$style['gallery-viewer__items']" @click="$emit('close')">
       <div v-for="(image, index) in items" ref="itemsEl" :key="image.id" :data-index="index" :class="$style['gallery-viewer__item']">
         <NuxtImg provider="storyblok" :src="image.filename" />
@@ -15,8 +15,9 @@
         {[$style['gallery-viewer__prev--disabled']]: visibleIndex === 0}
       ]"
       @click="goPrev">
-      <IconButton
+      <Button
         icon="ChevronLeft"
+        icon-only
         color="opacity"
         rounded />
     </div>
@@ -26,8 +27,9 @@
         {[$style['gallery-viewer__next--disabled']]: visibleIndex === items.length - 1}
       ]"
       @click="goNext">
-      <IconButton
+      <Button
         icon="ChevronRight"
+        icon-only
         color="opacity"
         rounded />
     </div>
