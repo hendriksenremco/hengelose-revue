@@ -64,7 +64,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    max-width: var(--container-width);
+    max-width: 80rem;
     margin: 0 auto;
     width: 100%;
 }

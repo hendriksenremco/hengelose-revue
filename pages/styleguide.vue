@@ -7,5 +7,6 @@
       Hallo<br>
       Dit is een test
     </Quote>
+    <HomeSponsors />
   </Container>
 </template>

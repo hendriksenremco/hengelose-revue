@@ -75,7 +75,7 @@ const items = ref([
     min-width: max-content;
     width:max-content;
     white-space: nowrap;
-    animation: marquee 150s linear infinite;
+    animation: marquee 100s linear infinite;
     will-change: transform;
   }
 

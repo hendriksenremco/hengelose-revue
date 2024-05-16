@@ -122,7 +122,7 @@
   --box-shadow-elevation-3: 0px 16px 32px hsla(0, 0%, 0%, 0.2);
 
   /* Element spacing */
-  --container-width: 70rem;
+  --container-width: 50rem;
   --border-radius: 8px;
   --breakpoint: 50rem;
   --topbar-height: 4rem;

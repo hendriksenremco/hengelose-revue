@@ -85,7 +85,6 @@ defineProps({
 
     background-color: var(--background-color);
     border: 0;
-
     cursor: pointer;
     color: var(--color);
     display: inline-flex;
@@ -102,7 +101,6 @@ defineProps({
     font-style:normal;
     overflow: hidden;
     white-space: nowrap;
-
     &:before {
         content: '';
         display: block;
