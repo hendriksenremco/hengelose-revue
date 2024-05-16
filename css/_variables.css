@@ -62,8 +62,8 @@
   --font-size-xlarge: 32px;
   --font-size-huge: 48px;
   --font-weight-thin: 300;
-  --font-weight-normal: 400;
-  --font-weight-bold: 600;
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
   --line-height-base: 22px;
   --line-height-small: 20px;
 
@@ -122,13 +122,13 @@
   --box-shadow-elevation-3: 0px 16px 32px hsla(0, 0%, 0%, 0.2);
 
   /* Element spacing */
-  --container-width: 60rem;
+  --container-width: 70rem;
   --border-radius: 8px;
   --breakpoint: 50rem;
   --topbar-height: 4rem;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
 
     --text-base: var(--dark-color-20);
@@ -158,4 +158,4 @@
 
     --border-subtle: var(--light-color-70);
   }
-}
+} */

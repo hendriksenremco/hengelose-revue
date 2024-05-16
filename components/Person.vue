@@ -2,7 +2,7 @@
   <div :class="$style['person']">
     <div :class="$style['person__wrapper']">
       <div :class="$style['person__image']">
-        <NuxtImg provider="storyblok" format="webp" width="400" quality="10" :src="image" />
+        <NuxtImg width="400" :src="image" />
       </div>
       <div :class="$style['person__content']">
         <h2 :class="$style['person__title']">

@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       })
     ]
   },
-  modules: ['@storyblok/nuxt', '@nuxt/image', '@vite-pwa/nuxt'],
+  modules: ['@storyblok/nuxt', '@vite-pwa/nuxt', '@nuxt/image', '@nuxtjs/sitemap'],
 
   storyblok: {
     accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'

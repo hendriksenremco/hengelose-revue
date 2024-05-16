@@ -3,7 +3,7 @@
     <Button icon-only icon="X" :class="$style['gallery-viewer__close']" @click="$emit('close')" />
     <div ref="wrapper" :class="$style['gallery-viewer__items']" @click="$emit('close')">
       <div v-for="(image, index) in items" ref="itemsEl" :key="image.id" :data-index="index" :class="$style['gallery-viewer__item']">
-        <NuxtImg provider="storyblok" :src="image.filename" />
+        <NuxtImg :src="image.filename" />
       </div>
     </div>
     <div :class="$style['gallery-viewer__navigator']">

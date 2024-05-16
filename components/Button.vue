@@ -17,7 +17,6 @@
         <Icon :name="icon" />
       </span>
       <slot />
-
       <span v-if="icon && iconPos === 'right'" :class="[$style['button__icon'], $style['button__icon--right']]">
         <Icon :name="icon" />
       </span>

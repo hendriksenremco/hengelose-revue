@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['gallery']">
     <div v-for="(item, index) in items" :key="item.id" :class="$style['gallery__item']" @click="showImage = parseInt(index) + 1">
-      <NuxtImg provider="storyblok" :src="item.filename" />
+      <NuxtImg :src="item.filename" />
     </div>
   </div>
   <GalleryViewer v-if="showImage" :items="items" :active="showImage" @close="showImage = null" />

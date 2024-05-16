@@ -1,7 +1,8 @@
 <template>
   <component :is="to ? nuxtLink : 'div'" :to="to" :class="$style['card']">
     <div v-if="image" :class="$style['card__image']">
-      <NuxtImg :src="image" />
+      <NuxtImg
+        :src="image" />
     </div>
     <div :class="$style['card__content']">
       <slot />

@@ -5,18 +5,18 @@
     :class="$style['link-image']"
     :target="blok.url.target">
     <NuxtImg
-      provider="storyblok"
       format="webp"
       quality="80"
       :src="blok.image?.filename" />
   </NuxtLink>
-  <img v-else :src="blok.image?.filename">
+  <NuxtImg v-else format="webp" :src="blok.image?.filename" quality="80" />
 </template>
 <script setup>
 defineProps({ blok: Object })
 </script>
 <style lang="scss" module>
 .link-image {
+
   display: inline-flex;
   width: 100%;
   height: 100%;

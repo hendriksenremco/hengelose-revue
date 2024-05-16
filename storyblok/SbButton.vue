@@ -8,6 +8,7 @@
     :rounded="blok.rounded"
     :icon="blok.icon"
     :to="blok.to.cached_url"
+    :target="blok.to.linktype === 'url' ? '_blank' : ''"
     :icon-pos="blok.iconPos">
     {{ blok.label }}
   </Button>
