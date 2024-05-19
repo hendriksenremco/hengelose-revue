@@ -110,7 +110,7 @@ withDefaults(defineProps<Props>(), {
     text-shadow: 2px 4px 20px var(--dark-color-20);
 
     h1 {
-      font-size: min(5cqw, var(--font-size-xlarge));
+      font-size: min(5.5cqw, var(--font-size-xlarge));
     }
 
     @container hero (width >= 70rem) {
