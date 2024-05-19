@@ -27,7 +27,7 @@
   user-select: none;
 
   svg {
-    width: var(--spacing-xxxl);
+    width: var(--spacing-xxl);
   }
     &__text {
         fill: var(--text-base);
