@@ -14,10 +14,15 @@ const props = defineProps({
   maxWidth: {
     type: [null, String, Number],
     default: null
+  },
+  gap: {
+    type: [String, Number],
+    default: 16
   }
 })
 
 const width = computed(() => `${props.maxWidth || 180}px`)
+const gridGap = computed(() => `${props.gap}px`)
 </script>
 <style lang="scss" module>
 .grid {
@@ -25,13 +30,13 @@ const width = computed(() => `${props.maxWidth || 180}px`)
   align-items: start;
   justify-items: space-between;
   grid-template-columns: repeat(auto-fill,  minmax(v-bind('width'), 1fr));
-  gap: var(--spacing-xl);
+  gap: v-bind('gridGap');
   width: 100%;
   container: grid / inline-size;
 
   &__item {
     height: 100%;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     max-width: 100cqw;
     display: flex;

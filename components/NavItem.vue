@@ -67,8 +67,8 @@ watch(() => route.fullPath, () => {
 <style lang="scss" module>
 .nav-item {
 
-    font-family: var(--font-family-slab);
-
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
     position: relative;
 
     & > a,

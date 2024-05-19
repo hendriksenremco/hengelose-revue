@@ -55,7 +55,7 @@
 
   /* Font variables */
   --font-family: 'Montserrat', sans-serif;
-  --font-family-slab: 'Hepta Slab', serif;
+  --font-family-slab: 'Bungee', serif;
   --font-size-small: 12px;
   --font-size-base: 16px;
   --font-size-large: 21px;
@@ -125,7 +125,7 @@
   --container-width: 50rem;
   --border-radius: 8px;
   --breakpoint: 50rem;
-  --topbar-height: 4rem;
+  --topbar-height: 5rem;
 }
 
 /* @media (prefers-color-scheme: light) {

@@ -15,9 +15,10 @@
 </template>
 <style lang="scss" module>
 .top-bar {
-    background-color: var(--secondary-surface);
+    // background-color: var(--secondary-surface);
+    background: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,.9));
     color: var(--secondary-on-surface);
-    box-shadow: var(--box-shadow-elevation-1);
+    // box-shadow: var(--box-shadow-elevation-1);
     display: flex;
     align-items: stretch;
     justify-content: space-between;

@@ -91,7 +91,7 @@ defineProps({
     align-items: center;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size);
-    font-family: var(--font-family-slab);
+    font-family: var(--font-family);
     line-height: 1;
     padding: var(--padding-y) var(--padding-x);
     vertical-align: middle;
@@ -167,6 +167,14 @@ defineProps({
 
     &--rounded {
         border-radius: 100%;
+        padding: 0;
+        width: var(--spacing-xxxl);
+        height: var(--spacing-xxxl);
+
+        .button__content {
+          padding: 0;
+          justify-content: center;
+        }
     }
 
     &--cta {

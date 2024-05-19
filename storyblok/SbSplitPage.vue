@@ -1,7 +1,7 @@
 <template>
-  <section :class="$style['layout__header']">
+  <div :class="$style['layout__header']">
     <StoryblokComponent v-for="blokBody in blok.header" :key="blokBody._uid" :blok="blokBody" />
-  </section>
+  </div>
   <Container :class="$style['layout']">
     <section :class="$style['layout__main']">
       <StoryblokComponent v-for="blokBody in blok.main" :key="blokBody._uid" :blok="blokBody" />

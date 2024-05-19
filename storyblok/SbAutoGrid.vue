@@ -1,5 +1,5 @@
 <template>
-  <AutoGrid v-editable="blok" :items="blok.blocks" :max-width="blok.maxWidth">
+  <AutoGrid v-editable="blok" :items="blok.blocks" :max-width="blok.maxWidth" :gap="blok.gap">
     <template #item="{ item }">
       <StoryblokComponent :blok="item" />
     </template>

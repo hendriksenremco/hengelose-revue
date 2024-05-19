@@ -44,7 +44,7 @@ defineProps({
 
   &--no-padding{
       padding: 0;
-      padding-top: var(--topbar-height);
+      // padding-top: var(--topbar-height);
   }
 
   &--no-padding-top {

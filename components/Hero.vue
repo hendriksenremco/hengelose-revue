@@ -37,7 +37,7 @@ withDefaults(defineProps<Props>(), {
   container: hero / inline-size;
 
   &:not(.hero--no-overlay)::after {
-    background: linear-gradient(0deg,  rgb(0 0 0 / 100%) 0%, rgb(0 0 0 / 100%) 30%, rgb(0 0 0 / 0%));
+    background: linear-gradient(0deg,  rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 80%) 30%, rgb(0 0 0 / 0%));
     content: '';
     display: block;
     position: absolute;
@@ -49,7 +49,7 @@ withDefaults(defineProps<Props>(), {
     z-index: 0;
 
     @container(width >= 70rem) {
-      background: linear-gradient(90deg,  rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 100%) 70%, rgb(0 0 0 / 100%));
+      background: linear-gradient(90deg,  rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 80%) 50%, rgb(0 0 0 / 80%));
       left: auto;
       right: 0;
       bottom: 0;
@@ -59,14 +59,18 @@ withDefaults(defineProps<Props>(), {
   }
 
   &:before {
-    background-image: url(/video-overlay.svg);
-    background-size: 3px;
+    background-color: var(--secondary-color-50);
+    // background-image: url(/video-overlay.svg);
+    // background-size: 3px;
     content: '';
     position: absolute;
     inset: 0;
     width: auto;
     height: auto;
     z-index: 1;
+    opacity: .25;
+    mix-blend-mode: soft-light;
+    backdrop-filter: blur(5px);
   }
 
   &__background {
@@ -103,18 +107,11 @@ withDefaults(defineProps<Props>(), {
     position: relative;
     margin-bottom: var(--spacing-xxxl);
     z-index: 1;
-    text-shadow: 2px 4px 20px var(--hr-black);
-
-    h1 {
-        font-size: var(--font-size-large);
-      }
+    text-shadow: 2px 4px 20px var(--dark-color-20);
 
     @container hero (width >= 70rem) {
       text-align: right;
 
-      h1 {
-        font-size: var(--font-size-xlarge);
-      }
     }
   }
 

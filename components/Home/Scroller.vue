@@ -13,6 +13,9 @@
     <div :class="$style['row']">
       <div>Wij zijn op zoek naar jou!</div>
     </div>
+    <Button color="opacity" :to="{path: '/contact'}" class="h-margin-top-xl" icon="MoveRight" icon-pos="right">
+      Neem contact met ons op
+    </Button>
   </div>
 </template>
 <script setup>
@@ -44,11 +47,14 @@ onMounted(() => {
 </script>
 <style lang="scss" module>
 .scroller {
-  font-size: var(--font-size-xlarge);
+  background-color: var(--secondary-color-30);
   font-weight: var(--font-weight-thin);
   font-family: var(--font-family);
   position: relative;
+  padding: var(--spacing-l);
   margin-bottom: var(--spacing-l);
+  container: homeScroller / inline-size;
+  width: 100%;
 }
 
 .word {
@@ -69,6 +75,7 @@ onMounted(() => {
   align-items: flex-start;
   justify-content: flex-start;
   vertical-align: bottom;
+  font-size: 7.5cqw;
 }
 
 </style>

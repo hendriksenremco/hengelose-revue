@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@100..900&display=swap');
 
 html {
     height: 100%;
@@ -32,7 +32,7 @@ a {
 }
 
 h1,h2,h3,h4,h5 {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-normal);
   font-family: var(--font-family-slab);
 }
 
