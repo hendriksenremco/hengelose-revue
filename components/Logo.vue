@@ -26,6 +26,9 @@
   padding-left: var(--spacing-l);
   user-select: none;
 
+  svg {
+    width: var(--spacing-xxxl);
+  }
     &__text {
         fill: var(--text-base);
         font-size: var(--font-size);

@@ -109,9 +109,12 @@ withDefaults(defineProps<Props>(), {
     z-index: 1;
     text-shadow: 2px 4px 20px var(--dark-color-20);
 
+    h1 {
+      font-size: min(5cqw, var(--font-size-xlarge));
+    }
+
     @container hero (width >= 70rem) {
       text-align: right;
-
     }
   }
 
