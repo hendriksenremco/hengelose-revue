@@ -22,7 +22,7 @@ defineProps<{
   color: var(--primary-on-surface);
   display: flex;
   font-size: var(--font-size-huge);
-  font-family: var(--font-family-slab);
+  font-family: var(--font-family-heading);
   container: quote / inline-size;
 
   &__image {

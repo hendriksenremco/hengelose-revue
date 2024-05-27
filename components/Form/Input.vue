@@ -22,9 +22,7 @@ const { value, errors, meta } = useField(() => props.name)
 .form-input {
   width: 100%;
   &__label {
-
     font-size: var(--font-size);
-    // font-family: var(--font-family-slab);
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--spacing-s);
   }

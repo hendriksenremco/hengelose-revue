@@ -1,12 +1,13 @@
 :root {
   /* Brand colors */
-  --primary-hue: 29;
-  --primary-saturation: 100%;
-  --primary-color: hsl(var(--primary-hue), var(--primary-saturation), 51%);
-  --secondary-hue: 342;
-  --secondary-saturation: 98%;
-  --secondary-color: hsl(var(--secondary-hue), var(--secondary-saturation), 35%);
-  --cta-gradient: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  --primary-hue: 36;
+  --primary-saturation: 93%;
+  --primary-color: hsl(var(--primary-hue), var(--primary-saturation), 58%);
+  --secondary-hue: 0;
+  --secondary-saturation: 100%;
+  --secondary-color: hsl(var(--secondary-hue), var(--secondary-saturation), 33%);
+
+  --cta-gradient: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
 
   /* Color variants */
   --primary-color-10: hsl(var(--primary-hue), var(--primary-saturation), 11%);
@@ -54,8 +55,8 @@
   --dark-color-90: hsl(var(--primary-hue), 1%, 45%);
 
   /* Font variables */
-  --font-family: 'Montserrat', sans-serif;
-  --font-family-slab: 'Bungee', serif;
+  --font-family:  'InterVariable', 'Inter', sans-serif;
+  --font-family-heading: 'HR', serif;
   --font-size-small: 12px;
   --font-size-base: 16px;
   --font-size-large: 21px;

@@ -65,7 +65,7 @@ defineProps<{
 
   &__title {
     // color: var(--color-primary);
-    font-family: var(--font-family-slab);
+    font-family: var(--font-family-heading);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-bold);
     // text-shadow: 2px 2px 0px var(--hr-black);

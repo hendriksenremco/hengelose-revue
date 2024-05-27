@@ -59,7 +59,7 @@ withDefaults(defineProps<Props>(), {
   }
 
   &:before {
-    background-color: var(--secondary-color-50);
+    background-color: var(--primary-color-50);
     // background-image: url(/video-overlay.svg);
     // background-size: 3px;
     content: '';
@@ -68,9 +68,9 @@ withDefaults(defineProps<Props>(), {
     width: auto;
     height: auto;
     z-index: 1;
-    opacity: .25;
+    opacity: 0.3;
     mix-blend-mode: soft-light;
-    backdrop-filter: blur(5px);
+    // backdrop-filter: blur(2px);
   }
 
   &__background {
