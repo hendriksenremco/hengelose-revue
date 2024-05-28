@@ -2,6 +2,7 @@
   <nav
     ref="root"
     :aria-hidden="!show"
+    tabindex="1"
     :class="[
       $style['drawer'],
       {[$style['drawer--show']]:show}
@@ -16,13 +17,18 @@
 <script setup>
 import { onClickOutside } from '@vueuse/core'
 const emit = defineEmits(['close'])
-defineProps({
+const props = defineProps({
   show: {
     type: Boolean,
     default: false
   }
 })
 const root = ref()
+
+watch(() => props.show, () => {
+  if (!props.show) { return false }
+  root.value.focus()
+})
 
 onClickOutside(root, () => emit('close'))
 </script>

@@ -2,7 +2,7 @@
   <div :class="$style['nav-item']">
     <Button
       styleless
-      :color="isActive ? 'cta': isChildActive ? 'opacity': 'transparent'"
+      :color="isActive ? 'opacity': isChildActive ? 'opacity': 'transparent'"
       :class="$style['nav-item']"
       :icon="!!$slots.subitems ? 'ChevronDown' : null"
       icon-pos="right"
@@ -108,6 +108,14 @@ watch(() => route.fullPath, () => {
         @container (width < 70rem) {
           height: auto;
         }
+      }
+    }
+
+    &:focus,
+    &:focus-within {
+      .nav-item__submenu {
+        opacity: 1;
+        height: auto;
       }
     }
 }

@@ -30,7 +30,6 @@
     container: topbar / inline-size;
 
     &__button {
-        margin-right: var(--spacing-xl);
         margin-left: calc(var(--spacing) * -1);
     }
 

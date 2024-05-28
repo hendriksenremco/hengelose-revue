@@ -101,6 +101,7 @@ defineProps({
     font-style:normal;
     overflow: hidden;
     white-space: nowrap;
+
     &:before {
         content: '';
         display: block;
@@ -124,6 +125,10 @@ defineProps({
 
     &:active {
         --background-color: var(--primary-surface-state-2);
+    }
+
+    &:focus-visible {
+      box-shadow: 0px 0px 0px 2px var(--color);
     }
 
     &__content {

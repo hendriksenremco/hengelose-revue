@@ -6,18 +6,16 @@
       </NuxtLink>
     </h2>
     <div :class="$style['news__grid']">
-      <div v-for="story in data.stories" :key="story._uid">
-        <Card :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
-          <h4>{{ story.content.title }}</h4>
-          <small>{{ story.content.teaser }}</small>
+      <Card v-for="story in data.stories" :key="story._uid" :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
+        <h4>{{ story.content.title }}</h4>
+        <small>{{ story.content.teaser }}</small>
 
-          <template #actions>
-            <Button icon="MoveRight" icon-pos="right" color="transparent">
-              Lees meer
-            </Button>
-          </template>
-        </Card>
-      </div>
+        <template #actions>
+          <Button icon="MoveRight" icon-pos="right" color="transparent">
+            Lees meer
+          </Button>
+        </template>
+      </Card>
     </div>
   </div>
 </template>

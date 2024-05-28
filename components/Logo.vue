@@ -31,6 +31,9 @@
   gap: var(--spacing-l);
   user-select: none;
 
+  svg {
+    width: 100%;
+  }
     &__text {
         fill: var(--text-base);
         font-size: var(--font-size);

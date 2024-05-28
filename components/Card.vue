@@ -39,9 +39,15 @@ withDefaults(defineProps<Props>(), {
   text-decoration: none;
   transition: all var(--duration-micro-fast) var(--easing-transition);
 
-  &[href]:hover {
-    color: var(--color-primary);
-    box-shadow: var(--box-shadow-elevation-3);
+  &[href] {
+    &:hover {
+      color: var(--color-primary);
+      box-shadow: var(--box-shadow-elevation-3);
+    }
+
+    &:focus-visible {
+      box-shadow: 0px 0px 0px 2px var(--secondary-on-surface);
+    }
   }
 
   &__image {
