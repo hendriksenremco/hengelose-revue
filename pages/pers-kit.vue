@@ -1,6 +1,7 @@
 <template>
   <Container>
-    <h2 class="h-margin-bottom">
+    <h1>Hengelose Revue merk handboek</h1>
+    <h2 class="h-margin-bottom h-margin-top-xxxl">
       Logo's
     </h2>
     <div :class="$style['grid']">
@@ -57,15 +58,63 @@
       <Card image="/brand/fonts/inter-font.png" contain background="light">
         Het lettertype voor grote blokken tekst. Gebruik een regelafstand van minimaal 133%.
         <template #actions>
-          <Button icon="Download" target="_blank" to="https://rsms.me/inter/">
+          <Button icon="ExternalLink" target="_blank" to="https://rsms.me/inter/">
             Inter
           </Button>
+        </template>
+      </Card>
+    </div>
+
+    <h2 class="h-margin-bottom h-margin-top-xl">
+      Kleuren
+    </h2>
+    <div :class="$style['grid']">
+      <Card v-for="color in colors" :key="color.title">
+        <h4 class="h-margin-bottom">
+          {{ color.title }}
+        </h4>
+        {{ color.hex.join(', ') }}<br>
+        {{ color.extra }}
+        <template #image>
+          <div :style="color.style" />
         </template>
       </Card>
     </div>
   </Container>
 </template>
 <script setup>
+useHead({
+  title: 'Pers kit'
+})
+
+const colors = reactive([
+  {
+    title: 'HR Curtain Red',
+    hex: ['#A60000'],
+    style: { 'background-color': '#A60000' }
+  },
+  {
+    title: 'HR Showbiz Gold',
+    hex: ['#F7A830'],
+    style: { 'background-color': '#F7A830' }
+  },
+  {
+    title: 'HR Gradient',
+    hex: ['#A60000', '#F7A830'],
+    style: { background: 'linear-gradient(45deg,#A60000,#F7A830)' },
+    extra: 'linear-gradient(45deg, #A60000, #F7A830)'
+  },
+  {
+    title: 'HR Black',
+    hex: ['#0d0d0d'],
+    style: { 'background-color': '#0d0d0d' }
+  },
+  {
+    title: 'HR White',
+    hex: ['#ffffff'],
+    style: { 'background-color': '#ffffff' }
+  }
+])
 const logos = reactive([
   {
     filename: 'logo-fc',

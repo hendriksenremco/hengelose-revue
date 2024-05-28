@@ -3,6 +3,9 @@
     <div v-if="image" :class="$style['card__image']">
       <NuxtImg :src="image" />
     </div>
+    <div v-if="!image && !!$slots.image" :class="$style['card__image']">
+      <slot name="image" />
+    </div>
     <div :class="$style['card__content']">
       <slot />
     </div>
@@ -17,7 +20,7 @@ interface Props {
   image?: string | null
   to?: object | null,
   contain?: boolean,
-  background: 'dark' | 'light' | null
+  background?: 'dark' | 'light' | null
 }
 withDefaults(defineProps<Props>(), {
   image: null,
