@@ -29,8 +29,39 @@
           <Button color="opacity" :to="`/brand/icon/${icon.filename}.png`" download target="_blank" icon="Download">
             Png
           </Button>
+        </template>r
+      </Card>
+    </div>
+
+    <h2 class="h-margin-bottom h-margin-top-xl">
+      Typografie
+    </h2>
+    <div :class="$style['grid']">
+      <Card image="/brand/fonts/hr-black.png" contain background="light">
+        Gebruik dit lettertype voor uitingen met korte zinnen of als koptekst.
+        Zorg dat de zinnen niet meer dan twee regels bevat.
+        <template #actions>
+          <Button icon="Download" download target="_blank" to="/brand/fonts/hr-black.woff2" class="h-margin-right">
+            HR Black
+          </Button>
         </template>
-      </card>
+      </Card>
+      <Card image="/brand/fonts/hr-book.png" contain background="light">
+        Een alternatief voor HR Black. Gebruik dit lettertype als HR Black te dik is of niet geschikt blijkt.
+        <template #actions>
+          <Button icon="Download" download target="_blank" to="/brand/fonts/hr-book.woff2" class="h-margin-right">
+            HR Book
+          </Button>
+        </template>
+      </Card>
+      <Card image="/brand/fonts/inter-font.png" contain background="light">
+        Het lettertype voor grote blokken tekst. Gebruik een regelafstand van minimaal 133%.
+        <template #actions>
+          <Button icon="Download" target="_blank" to="https://rsms.me/inter/">
+            Inter
+          </Button>
+        </template>
+      </Card>
     </div>
   </Container>
 </template>
@@ -81,6 +112,7 @@ const icons = reactive([
     description: 'Gebruik dit icoon als er niet genoeg ruimte is voor het volledige logo, er geen kleur gebruikt kan worden. Alleen gebruiken op een donkere achtegrond'
   }
 ])
+
 </script>
 <style lang="scss" module>
 .grid {

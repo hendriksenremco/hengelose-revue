@@ -77,8 +77,13 @@ withDefaults(defineProps<Props>(), {
   }
 
   &--contain {
-    .card__image > * {
-      object-fit: contain;
+    .card__image {
+      padding: var(--spacing);
+      width: 100%;
+
+      & > * {
+        object-fit: contain;
+      }
     }
   }
 }

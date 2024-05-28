@@ -1,3 +1,6 @@
+:global(.h-margin-right) {
+  margin-right: var(--spacing);
+}
 :global(.h-margin-top) {
   margin-top: var(--spacing);
 }
