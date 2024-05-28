@@ -29,7 +29,7 @@
           <Button color="opacity" :to="`/brand/icon/${icon.filename}.png`" download target="_blank" icon="Download">
             Png
           </Button>
-        </template>r
+        </template>
       </Card>
     </div>
 
