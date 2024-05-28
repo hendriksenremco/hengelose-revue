@@ -1,0 +1,98 @@
+<template>
+  <Container>
+    <h2 class="h-margin-bottom">
+      Logo's
+    </h2>
+    <div :class="$style['grid']">
+      <Card v-for="logo in logos" :key="logo.filename" :background="logo.background" contain :image="`/brand/logo/${logo.filename}.png`">
+        {{ logo.description }}
+        <template #actions>
+          <Button color="opacity" :to="`/brand/logo/${logo.filename}.svg`" download target="_blank" icon="Download">
+            Svg
+          </Button>
+          <Button color="opacity" :to="`/brand/logo/${logo.filename}.png`" download target="_blank" icon="Download">
+            Png
+          </Button>
+        </template>
+      </Card>
+    </div>
+    <h2 class="h-margin-bottom h-margin-top-xl">
+      Iconen
+    </h2>
+    <div :class="$style['grid']">
+      <Card v-for="icon in icons" :key="icon.filename" :background="icon.background" contain :image="`/brand/icon/${icon.filename}.png`">
+        {{ icon.description }}
+        <template #actions>
+          <Button color="opacity" :to="`/brand/icon/${icon.filename}.svg`" download target="_blank" icon="Download">
+            Svg
+          </Button>
+          <Button color="opacity" :to="`/brand/icon/${icon.filename}.png`" download target="_blank" icon="Download">
+            Png
+          </Button>
+        </template>
+      </card>
+    </div>
+  </Container>
+</template>
+<script setup>
+const logos = reactive([
+  {
+    filename: 'logo-fc',
+    title: 'Logo kleur',
+    background: 'light',
+    description: 'Gebruik dit logo tegen een lichte achtergrond'
+  },
+  {
+    filename: 'logo-fc-dia',
+    title: 'Logo kleur dia',
+    background: 'dark',
+    description: 'Gebruik dit logo tegen een donkere achtergrond'
+  },
+  {
+    filename: 'logo-bw',
+    title: 'Zwart wit',
+    background: 'light',
+    description: 'Gebruik dit logo tegen een lichte achtergrond en als er geen kleur gebruikt kan worden'
+  },
+  {
+    filename: 'logo-bw-dia',
+    title: 'Zwart wit dia',
+    background: 'dark',
+    description: 'Gebruik dit logo tegen een donkere achtergrond en als er geen kleur gebruikt kan worden'
+  }
+])
+const icons = reactive([
+  {
+    filename: 'icon-fc',
+    title: 'Icoon kleur',
+    background: 'light',
+    description: 'Gebruik dit icoon als er niet genoeg ruimte is voor het volledige logo '
+  },
+  {
+    filename: 'icon-bw',
+    title: 'Icoon zwart wit',
+    background: 'light',
+    description: 'Gebruik dit icoon als er niet genoeg ruimte is voor het volledige logo, er geen kleur gebruikt kan worden. Alleen gebruiken op een lichte achtegrond'
+  },
+  {
+    filename: 'icon-bw-dia',
+    title: 'Icoon zwart wit dia',
+    background: 'dark',
+    description: 'Gebruik dit icoon als er niet genoeg ruimte is voor het volledige logo, er geen kleur gebruikt kan worden. Alleen gebruiken op een donkere achtegrond'
+  }
+])
+</script>
+<style lang="scss" module>
+.grid {
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-l);
+  align-items: start;
+  justify-items: space-between;
+
+  & > * {
+    height: 100%;
+  }
+}
+</style>
