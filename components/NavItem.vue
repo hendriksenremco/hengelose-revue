@@ -83,8 +83,8 @@ watch(() => route.fullPath, () => {
     }
 
     &__submenu {
-      background-color: var(--background-raised);
-      box-shadow: var(--box-shadow-elevation-3);
+      background-color: hsla(var(--secondary-hue),var(--secondary-saturation), 30%, 95%);
+      box-shadow: var(--box-shadow-elevation-4);
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -93,6 +93,7 @@ watch(() => route.fullPath, () => {
       right: 0;
 
       @container (width < 70rem) {
+        background-color: unset;
         box-shadow: none;
         opacity: 0;
         height: 0;

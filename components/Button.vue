@@ -103,17 +103,18 @@ defineProps({
     white-space: nowrap;
 
     &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 100%;
-        background-color: var(--opacity-surface);
-        z-index: 0;
-        width: 100%;
-        height: 100%;
-        transition: transform var(--duration-micro-fast) var(--easing-transition);
-        will-change: transform;
+
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      background-color: var(--opacity-surface);
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform var(--duration-micro-fast) var(--easing-transition);
+      will-change: transform;
     }
 
     &:hover {
@@ -184,7 +185,7 @@ defineProps({
 
     &--cta {
         background: var(--cta-gradient);
-        color: var(--primary-cta-on-base);
+        color: var(--light-color-100);
     }
 
     &--with-border {

@@ -47,11 +47,11 @@
           </Button>
         </template>
       </Card>
-      <Card image="/brand/fonts/hr-book.png" contain background="light">
+      <Card image="/brand/fonts/hr-light.png" contain background="light">
         Een alternatief voor HR Black. Gebruik dit lettertype als HR Black te dik is of niet geschikt blijkt.
         <template #actions>
-          <Button icon="Download" download target="_blank" to="/brand/fonts/hr-book.woff2" class="h-margin-right">
-            HR Book
+          <Button icon="Download" download target="_blank" to="/brand/fonts/hr-light.woff2" class="h-margin-right">
+            HR Light
           </Button>
         </template>
       </Card>

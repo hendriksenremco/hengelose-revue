@@ -43,7 +43,7 @@ onClickOutside(root, () => emit('close'))
     width: 90vw;
     transform: translateX(100%);
     transition: transform var(--duration-micro-normal) var(--easing-transition);
-    background-color: var(--background-raised);
+    background-color: hsla(var(--secondary-hue),var(--secondary-saturation), 30%, 95%);
     box-shadow: var(--box-shadow-elevation-3);
     padding-top: var(--spacing-xxxxl);
     z-index: 101;

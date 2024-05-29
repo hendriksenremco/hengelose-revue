@@ -24,7 +24,10 @@ withDefaults(defineProps<Props>(), {
 })
 </script>
 <style lang="scss"  module>
+
 .hero {
+  --text-base: var(--light-color-100);
+
   background-size: cover;
   background-position: 50% 50%;
   justify-content: flex-end;

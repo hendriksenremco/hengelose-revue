@@ -48,8 +48,10 @@ onMounted(() => {
 <style lang="scss" module>
 .scroller {
   background-color: var(--secondary-color-30);
-  font-weight: var(--font-weight-thin);
-  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-family-heading);
+  display: flex;
+  flex-direction:column;
   position: relative;
   padding: var(--spacing-l);
   margin-bottom: var(--spacing-l);
@@ -59,23 +61,27 @@ onMounted(() => {
 
 .word {
   font-weight: var(--font-weight-bold);
-  display: inline-flex;
-  align-items: flex-start;
+  height: 7.5cqw;
+  line-height: 7.5cqw;
   position: absolute;
+  top: 0;
   white-space: nowrap;
-  vertical-align: baseline;
+
 }
 
 .word-wrapper {
   position: relative;
+  // overflow: hidden;
+  height: 7.5cqw;
+  width: 100cqw;
 }
 
 .row {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  vertical-align: bottom;
+  align-items: center;
   font-size: 7.5cqw;
+  line-height: 1.33;
+
 }
 
 </style>
