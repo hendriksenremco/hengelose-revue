@@ -7,6 +7,9 @@
       <div :class="$style['top-bar__content']">
         <slot />
       </div>
+      <div v-if="!!$slots.aside" :class="$style['top-bar__aside']">
+        <slot name="aside" />
+      </div>
       <div :class="$style['top-bar__mobile-content']">
         <slot name="mobile" />
       </div>
@@ -20,8 +23,8 @@
     color: var(--secondary-on-surface);
     // box-shadow: var(--box-shadow-elevation-1);
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+    // align-items: stretch;
+    // justify-content: space-between;
     height: var(--topbar-height);
     position: fixed;
     top: 0;
@@ -50,6 +53,15 @@
         }
     }
 
+    &__aside {
+      display: flex;
+      margin-left: auto;
+
+      @container (width < 70rem) {
+            display: none;
+        }
+    }
+
     &__mobile-content {
         display: flex;
         margin-left: auto;
@@ -62,9 +74,9 @@
 
 .container {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     flex-direction: row;
-    max-width: 80rem;
+    // max-width: 80rem;
     margin: 0 auto;
     width: 100%;
 }

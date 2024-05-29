@@ -12,6 +12,9 @@
     <Button icon="X" transparent icon-pos="right" :class="$style['drawer__close']" @click="$emit('close')">
       Sluiten
     </Button>
+    <div :class="$style['drawer__bottom']">
+      <slot name="bottom" />
+    </div>
   </nav>
 </template>
 <script setup>
@@ -60,6 +63,14 @@ onClickOutside(root, () => emit('close'))
       position: absolute;
       right: 0;
       top: 0;
+    }
+
+    &__bottom {
+      align-items: stretch;
+      justify-content: space-around;
+      display: flex;
+      margin-top: auto;
+      width: auto;
     }
 }
 

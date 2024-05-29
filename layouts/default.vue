@@ -1,6 +1,9 @@
 <template>
   <Drawer :show="sidebarShouldShow" @close="hideSidebar">
     <Navigation />
+    <template #bottom>
+      <Socials />
+    </template>
   </Drawer>
   <TopBar>
     <Navigation />
@@ -8,6 +11,9 @@
       <Button icon="Menu" icon-pos="right" color="transparent" @click="showSidebar">
         Menu
       </Button>
+    </template>
+    <template #aside>
+      <Socials />
     </template>
   </TopBar>
   <main :class="$style['layout__main']">

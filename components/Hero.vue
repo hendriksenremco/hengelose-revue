@@ -33,7 +33,7 @@ withDefaults(defineProps<Props>(), {
   justify-content: flex-end;
   display: flex;
   gap: var(--spacing-l);
-  height: 75vh;
+  height: 85vh;
   padding: var(--spacing-xxl);
   position: relative;
   width: 100%;
@@ -51,29 +51,29 @@ withDefaults(defineProps<Props>(), {
     height: 50%;
     z-index: 0;
 
-    @container(width >= 70rem) {
-      background: linear-gradient(90deg,  rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 80%) 50%, rgb(0 0 0 / 80%));
-      left: auto;
-      right: 0;
-      bottom: 0;
-      height:100%;
-      width: 50%;
-    }
+    // @container(width >= 70rem) {
+    //   background: linear-gradient(90deg,  rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 80%) 50%, rgb(0 0 0 / 80%));
+    //   left: auto;
+    //   right: 0;
+    //   bottom: 0;
+    //   height:100%;
+    //   width: 50%;
+    // }
   }
 
   &:before {
     background-color: var(--primary-color-50);
-    // background-image: url(/video-overlay.svg);
-    // background-size: 3px;
+    background-image: url(/video-overlay.svg);
+    background-size: 3px;
     content: '';
     position: absolute;
     inset: 0;
     width: auto;
     height: auto;
     z-index: 1;
-    opacity: 0.3;
+    opacity: .5;
     mix-blend-mode: soft-light;
-    // backdrop-filter: blur(2px);
+    // backdrop-filter: contrast(110%) sepia(20%);
   }
 
   &__background {
@@ -90,6 +90,7 @@ withDefaults(defineProps<Props>(), {
   }
 
   &__container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,10 +98,11 @@ withDefaults(defineProps<Props>(), {
     max-width: var(--container-width);
     width: 100%;
     margin: 0 auto;
+    padding-bottom: var(--spacing-xxxxl);
 
     @container(width >= 70rem) {
-      align-items: flex-end;
       justify-content: center;
+      padding-bottom: 0;
     }
   }
 
@@ -116,9 +118,9 @@ withDefaults(defineProps<Props>(), {
       font-size: min(5.5cqw, var(--font-size-xlarge));
     }
 
-    @container hero (width >= 70rem) {
-      text-align: right;
-    }
+    // @container hero (width >= 70rem) {
+    //   text-align: right;
+    // }
   }
 
   &__actions {
