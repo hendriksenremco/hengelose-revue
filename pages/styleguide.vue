@@ -1,7 +1,7 @@
 <template>
   <Container>
-    <Button loading>
-      Verstuur
+    <Button>
+      Deploy test
     </Button>
     <Quote :image="'/bertus.jpg'">
       Hallo<br>
