@@ -20,19 +20,19 @@ export const useHrStoryblok = async (url, params) => {
     }
   })
 
-  if (editMode.value) {
-    const storyblokApiInstance = useStoryblokApi()
-    const { data: sbData } = await storyblokApiInstance.get(url, { ...params, version })
-    if (sbData) {
-      data.value = sbData
-    }
-  } else {
-    const { data: sbData } = await useFetch(`https://getstoryblok-dar6adajaq-ey.a.run.app/${url}`, { query: { ...params } })
-    // const { data: sbData, error} = await useFetch(`http://127.0.0.1:5001/hengelose-revue/europe-west3/getStoryblok/${url}`, {query: {...params}})
-    if (sbData.value) {
-      data.value = sbData.value
-    }
+  // if (editMode.value) {
+  const storyblokApiInstance = useStoryblokApi()
+  const { data: sbData } = await storyblokApiInstance.get(url, { ...params, version })
+  if (sbData) {
+    data.value = sbData
   }
+  // } else {
+  //   const { data: sbData } = await useFetch(`https://getstoryblok-dar6adajaq-ey.a.run.app/${url}`, { query: { ...params } })
+  //   // const { data: sbData, error} = await useFetch(`http://127.0.0.1:5001/hengelose-revue/europe-west3/getStoryblok/${url}`, {query: {...params}})
+  //   if (sbData.value) {
+  //     data.value = sbData.value
+  //   }
+  // }
 
   return data.value
 }
