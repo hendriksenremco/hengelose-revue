@@ -49,26 +49,27 @@ const { handleSubmit, meta, resetForm } = useForm({
   validationSchema
 })
 
-const onSubmit = handleSubmit(async () => {
-  if (!meta.value.valid) { return false }
-  success.value = false
-  loading.value = true
-  const { data } = await useFetch('https://submitform-dar6adajaq-ey.a.run.app', {
-    method: 'POST',
-    body: {
-      type: 'contact-form',
-      name,
-      email,
-      phone,
-      message
-    }
-  })
+const onSubmit = handleSubmit(() => {
+  console.log('wip')
+  // if (!meta.value.valid) { return false }
+  // success.value = false
+  // loading.value = true
+  // const { data } = await useFetch('https://submitform-dar6adajaq-ey.a.run.app', {
+  //   method: 'POST',
+  //   body: {
+  //     type: 'contact-form',
+  //     name,
+  //     email,
+  //     phone,
+  //     message
+  //   }
+  // })
 
-  loading.value = false
-  if (data.value) {
-    success.value = true
-    resetForm()
-  }
+  // loading.value = false
+  // if (data.value) {
+  // success.value = true
+  resetForm()
+  // }
 })
 </script>
 <style lang="scss" module>
