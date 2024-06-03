@@ -23,7 +23,8 @@
 <script setup lang="ts">
 import { useField, useForm } from 'vee-validate'
 import { toTypedSchema } from '@vee-validate/zod'
-import { object, string } from 'zod'
+import { object } from 'zod'
+import contactFormSchema from '~/schemas/contactForm'
 defineProps<{
   title?: String
 }>()
@@ -32,12 +33,7 @@ const loading: Ref<boolean> = ref(false)
 const success: Ref<boolean> = ref(false)
 
 const validationSchema = toTypedSchema(
-  object({
-    name: string().optional(),
-    phone: string().optional(),
-    message: string({ required_error: 'Dit veld is verplicht' }).min(8, { message: 'Moet minimaal 8 karakters bevatten' }),
-    email: string({ required_error: 'Dit veld is verplicht' }).email({ message: 'Dit moet een geldig e-mailadres zijn' })
-  })
+  object(contactFormSchema)
 )
 
 const { value: name } = useField('name')
@@ -49,27 +45,26 @@ const { handleSubmit, meta, resetForm } = useForm({
   validationSchema
 })
 
-const onSubmit = handleSubmit(() => {
-  console.log('wip')
-  // if (!meta.value.valid) { return false }
-  // success.value = false
-  // loading.value = true
-  // const { data } = await useFetch('https://submitform-dar6adajaq-ey.a.run.app', {
-  //   method: 'POST',
-  //   body: {
-  //     type: 'contact-form',
-  //     name,
-  //     email,
-  //     phone,
-  //     message
-  //   }
-  // })
+const onSubmit = handleSubmit(async () => {
+  if (!meta.value.valid) { return false }
+  success.value = false
+  loading.value = true
+  const { data } = await useFetch('/api/submit-form', {
+    method: 'POST',
+    body: {
+      type: 'contact-form',
+      name,
+      email,
+      phone,
+      message
+    }
+  })
 
-  // loading.value = false
-  // if (data.value) {
-  // success.value = true
-  resetForm()
-  // }
+  loading.value = false
+  if (data.value) {
+    success.value = true
+    resetForm()
+  }
 })
 </script>
 <style lang="scss" module>

@@ -46,8 +46,13 @@ export default defineNuxtConfig({
     }
   },
   hooks: {
-    'vite:extendConfig': (config, { isClient, isServer }) => {
+    'vite:extendConfig': (config, { isClient }) => {
       if (isClient) { config.resolve.alias.vue = 'vue/dist/vue.esm-bundler.js' }
+    }
+  },
+  nitro: {
+    experimental: {
+      websocket: true
     }
   }
 })

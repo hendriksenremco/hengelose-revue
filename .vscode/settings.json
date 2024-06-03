@@ -17,6 +17,5 @@
     ],
     "typescript.format.semicolons": "remove",
     "stylelint.packageManager": "yarn",
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "vue.inlayHints.inlineHandlerLeading": true
+    "typescript.tsdk": "node_modules/typescript/lib"
   }
