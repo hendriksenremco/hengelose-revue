@@ -2,7 +2,11 @@ import nodemailer from 'nodemailer'
 
 const transport = nodemailer.createTransport({
   host: 'athena.it53.nl',
-  port: 587
+  port: 587,
+  auth: {
+    user: 'website@hengeloserevue.nl',
+    pass: 'knv8JPF*fvf6tma3xab'
+  }
 })
 
 transport.verify((error, success) => {
@@ -13,15 +17,15 @@ transport.verify((error, success) => {
   }
 })
 
-async function main () {
-  const info = await transport.sendMail({
-    from: 'website@hengeloserevue.nl',
-    to: 'remco@remcohendriksen.nl',
-    text: '<b>Helle world!</b>',
-    subject: 'Test subject'
-  })
+// async function main () {
+//   const info = await transport.sendMail({
+//     from: 'website@hengeloserevue.nl',
+//     to: 'remco@remcohendriksen.nl',
+//     html: '<b>Helle world!</b>',
+//     subject: 'Test subject'
+//   })
 
-  console.log('Message sent: %s', info.messageId)
-}
+//   console.log('Message sent: %s', info.messageId)
+// }
 
-main().catch(console.error)
+// main().catch(console.error)
