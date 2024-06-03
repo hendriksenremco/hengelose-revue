@@ -7,8 +7,7 @@ export default defineNitroPlugin(async nitroApp => {
     user: config.mysqlUser,
     port: config.mysqlPort,
     password: config.mysqlPassword,
-    database: config.mysqlDatabase,
-    trace: true
+    database: config.mysqlDatabase
   })
 
   nitroApp.hooks.hookOnce('close', () => {
