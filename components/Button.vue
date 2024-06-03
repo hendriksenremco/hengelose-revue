@@ -91,7 +91,7 @@ defineProps({
     align-items: center;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size);
-    font-family: var(--font-family-heading);
+    font-family: var(--font-family);
     line-height: 1;
     padding: var(--padding-y) var(--padding-x);
     vertical-align: middle;
@@ -102,7 +102,7 @@ defineProps({
     overflow: hidden;
     white-space: nowrap;
 
-    &:before {
+    &::before {
 
       content: '';
       display: block;
@@ -119,7 +119,8 @@ defineProps({
 
     &:hover {
         --background-color: var(--primary-surface-state-1);
-        &:before {
+
+        &::before {
             transform: translateY(-100%) translateZ(0);
         }
     }
@@ -129,7 +130,7 @@ defineProps({
     }
 
     &:focus-visible {
-      box-shadow: 0px 0px 0px 2px var(--color);
+      box-shadow: 0 0 0 2px var(--color);
     }
 
     &__content {
@@ -155,6 +156,7 @@ defineProps({
         &--right {
             margin-left: var(--spacing);
         }
+
         svg {
             margin: 0 calc(var(--spacing-s) * -1);
             width: var(--icon-size);
@@ -165,7 +167,8 @@ defineProps({
 
     &--loading {
       opacity: 0.75;
-      &:before {
+
+      &::before {
         top: 0;
         animation: loading 2s var(--easing-transition) infinite;
       }
@@ -189,7 +192,7 @@ defineProps({
     }
 
     &--with-border {
-      box-shadow: inset 0px 0px 0px 2px var(--text-base);
+      box-shadow: inset 0 0 0 2px var(--text-base);
       color: var(--text-base);
     }
 
@@ -202,6 +205,7 @@ defineProps({
 
       .button__content {
           height: auto;
+
           // padding: 0;
       }
     }
@@ -232,11 +236,13 @@ defineProps({
     transform: scaleX(0);
     transform-origin: 0% 0%;
   }
+
   50% {
     transform: scaleX(1);
     transform-origin: 0% 0%;
     left: 0;
   }
+
   100% {
     left: 100%;
   }

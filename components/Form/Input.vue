@@ -21,6 +21,7 @@ const { value, errors, meta } = useField(() => props.name)
 <style lang="scss" module>
 .form-input {
   width: 100%;
+
   &__label {
     font-size: var(--font-size);
     font-weight: var(--font-weight-bold);
@@ -28,8 +29,6 @@ const { value, errors, meta } = useField(() => props.name)
   }
 
   &__input {
-    border: 0;
-    outline: 0;
     background-color: transparent;
     color: var(--text-base);
     border: 1px solid var(--border-subtle);

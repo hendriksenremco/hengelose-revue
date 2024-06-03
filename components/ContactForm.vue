@@ -1,5 +1,5 @@
 <template>
-  <form :class="$style['form']" @submit.prevent="onSubmit">
+  <form :class="$style['form']" @submit="onSubmit">
     <h2>{{ title }}</h2>
     <FormInput v-model="name" name="name" label="Naam" />
     <FormInput v-model="email" name="email" label="Emailadres" />
@@ -33,7 +33,7 @@ const loading: Ref<boolean> = ref(false)
 const success: Ref<boolean> = ref(false)
 
 const validationSchema = toTypedSchema(
-  object(contactFormSchema)
+  object(contactFormSchema).omit({ type: true })
 )
 
 const { value: name } = useField('name')
@@ -53,10 +53,10 @@ const onSubmit = handleSubmit(async () => {
     method: 'POST',
     body: {
       type: 'contact-form',
-      name,
-      email,
-      phone,
-      message
+      name: name.value,
+      email: email.value,
+      phone: phone.value,
+      message: message.value
     }
   })
 
