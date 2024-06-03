@@ -46,6 +46,7 @@
     "@nuxtjs/sitemap": "^5.1.5",
     "hls.js": "^1.5.7",
     "mariadb": "^3.3.0",
+    "mysql2": "^3.10.0",
     "stylelint-config-recommended-scss": "^14.0.0",
     "stylelint-scss": "^6.2.1",
     "vue3-runtime-template": "^1.0.2"

@@ -1,4 +1,4 @@
-import { createPool } from 'mariadb'
+import { createPool } from 'mysql2'
 export default defineNitroPlugin(async nitroApp => {
   const config = useAppConfig()
 
