@@ -1,8 +1,8 @@
 import nodemailer from 'nodemailer'
 
 const transport = nodemailer.createTransport({
-  host: '172.22.1.253',
-  port: 588
+  host: 'athena.it53.nl',
+  port: 587
 })
 
 transport.verify((error, success) => {
@@ -13,15 +13,15 @@ transport.verify((error, success) => {
   }
 })
 
-// async function main () {
-//   const info = await transport.sendMail({
-//     from: 'website@hengeloserevue.nl',
-//     to: 'remco@remcohendriksen.nl',
-//     text: '<b>Helle world!</b>',
-//     subject: 'Test subject'
-//   })
+async function main () {
+  const info = await transport.sendMail({
+    from: 'website@hengeloserevue.nl',
+    to: 'remco@remcohendriksen.nl',
+    text: '<b>Helle world!</b>',
+    subject: 'Test subject'
+  })
 
-//   console.log('Message sent: %s', info.messageId)
-// }
+  console.log('Message sent: %s', info.messageId)
+}
 
-// main().catch(console.error)
+main().catch(console.error)
