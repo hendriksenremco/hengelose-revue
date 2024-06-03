@@ -7,8 +7,11 @@ export default defineEventHandler(async event => {
   const schema = z.object(contactFormSchema)
 
   const validated = schema.parse({ type, name, email, phone, message })
-  await db.query(`INSERT INTO form_submission (type, name, email, phone, message) VALUES (${db.escape(type)}, ${db.escape(name)}, ${db.escape(email)}, ${db.escape(phone)}, ${db.escape(message)})`, err => {
-    if (err) { throw err }
+  const response = await db.query(`INSERT INTO form_submission (type, name, email, phone, message) VALUES (${db.escape(type)}, ${db.escape(name)}, ${db.escape(email)}, ${db.escape(phone)}, ${db.escape(message)})`)
+
+  if (response) {
     return validated
-  })
+  } else {
+    return new Error('notok')
+  }
 })
