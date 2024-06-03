@@ -1,4 +1,4 @@
-import { createPool } from 'mysql2'
+import { createPool } from 'mysql2/promise'
 export default defineNitroPlugin(async nitroApp => {
   const config = useAppConfig()
 
