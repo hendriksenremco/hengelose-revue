@@ -46,15 +46,16 @@ withDefaults(defineProps<Props>(), {
     }
 
     &:focus-visible {
-      box-shadow: 0px 0px 0px 2px var(--secondary-on-surface);
+      box-shadow: 0 0 0 2px var(--secondary-on-surface);
     }
   }
 
   &__image {
-    aspect-ratio: 16/9;
     display: flex;
+    width: 100%;
 
     & > * {
+      aspect-ratio: 16/9;
       width: 100%;
       object-fit: cover;
     }
