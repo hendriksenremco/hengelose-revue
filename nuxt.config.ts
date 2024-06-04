@@ -20,7 +20,11 @@ export default defineNuxtConfig({
       })
     ]
   },
-  modules: ['@storyblok/nuxt', '@vite-pwa/nuxt', '@nuxt/image'],
+  modules: ['@storyblok/nuxt', '@vite-pwa/nuxt', '@nuxt/image', 'nuxt-gtag'],
+
+  gtag: {
+    id: 'G-7HZH59NMZH'
+  },
 
   storyblok: {
     accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'
