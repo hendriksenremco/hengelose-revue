@@ -7,12 +7,18 @@
       $style['drawer'],
       {[$style['drawer--show']]:show}
     ]">
-    <slot />
+    <slot v-if="show" />
 
-    <Button icon="X" transparent icon-pos="right" :class="$style['drawer__close']" @click="$emit('close')">
+    <Button
+      v-if="show"
+      icon="X"
+      transparent
+      icon-pos="right"
+      :class="$style['drawer__close']"
+      @click="$emit('close')">
       Sluiten
     </Button>
-    <div :class="$style['drawer__bottom']">
+    <div v-if="show":class="$style['drawer__bottom']">
       <slot name="bottom" />
     </div>
   </nav>
@@ -46,7 +52,7 @@ onClickOutside(root, () => emit('close'))
     width: 90vw;
     transform: translateX(100%);
     transition: transform var(--duration-micro-normal) var(--easing-transition);
-    background-color: hsla(var(--secondary-hue),var(--secondary-saturation), 30%, 95%);
+    background-color: hsl(var(--secondary-hue) var(--secondary-saturation) 30% / 95%);
     box-shadow: var(--box-shadow-elevation-3);
     padding-top: var(--spacing-xxxxl);
     z-index: 101;
