@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul :class="$style['navigation']">
     <NavItem
       v-for="item in story.content.items"
       :key="item.parent.full_slug"
@@ -33,3 +33,9 @@ const isChildActive = items => {
   return items.some(item => `/${item.full_slug}` === route.path)
 }
 </script>
+<style lang="scss" module>
+.navigation {
+  display: flex;
+  flex-direction: inherit;
+}
+</style>
