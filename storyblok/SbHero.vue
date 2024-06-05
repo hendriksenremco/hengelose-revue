@@ -1,5 +1,5 @@
 <template>
-  <Hero>
+  <LazyHero>
     <template #background>
       <StoryblokComponent v-for="blokBody in blok.background" :key="blokBody._uid +'bg'" :blok="blokBody" />
     </template>
@@ -8,7 +8,7 @@
     <template #actions>
       <StoryblokComponent v-for="blokBody in blok.actions" :key="blokBody._uid +'actions'" :blok="blokBody" />
     </template>
-  </Hero>
+  </LazyHero>
 </template>
 <script setup>
 defineProps({ blok: Object })

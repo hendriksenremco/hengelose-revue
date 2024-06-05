@@ -1,6 +1,6 @@
 <template>
   <ul :class="$style['navigation']">
-    <NavItem
+    <LazyNavItem
       v-for="item in story.content.items"
       :key="item.parent.full_slug"
       tag="li"
@@ -10,16 +10,16 @@
       {{ item.parent.name }}
 
       <template v-if="item.items.length" #subitems>
-        <NavItem
+        <LazyNavItem
           v-for="subItem in item.items"
           :key="subItem.full_slug"
           tag="li"
           :is-active="isActive(subItem.full_slug)"
           :to="{path: '/'+ subItem.full_slug}">
           {{ subItem.name }}
-        </NavItem>
+        </LazyNavItem>
       </template>
-    </NavItem>
+    </LazyNavItem>
   </ul>
 </template>
 <script setup>

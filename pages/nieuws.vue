@@ -1,18 +1,18 @@
 <template>
-  <Container>
+  <LazyContainer>
     <h1>Nieuws</h1>
     <div :class="$style['grid']" class="h-margin-top-xl">
-      <Card v-for="story in stories" :key="story._uid" :alt="'Afbeelding over ' + story.content.title.toLowerCase() " :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
+      <LazyCard v-for="story in stories" :key="story._uid" :alt="'Afbeelding over ' + story.content.title.toLowerCase() " :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
         <b>{{ story.content.title }}</b>
         <small>{{ story.content.teaser }}</small>
         <template #actions>
-          <Button icon="MoveRight" icon-pos="right" color="transparent">
+          <LazyButton icon="MoveRight" icon-pos="right" color="transparent">
             Lees meer
-          </Button>
+          </LazyButton>
         </template>
-      </Card>
+      </LazyCard>
     </div>
-  </Container>
+  </LazyContainer>
 </template>
 <script setup>
 const { stories } = await useHrStoryblok('cdn/stories', { version: 'published', starts_with: 'nieuws', is_startpage: false })

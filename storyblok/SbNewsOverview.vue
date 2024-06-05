@@ -6,7 +6,7 @@
       </NuxtLink>
     </h2>
     <div :class="$style['news__grid']">
-      <Card v-for="story in data.stories" :key="story._uid" :alt="'Afbeelding over ' + story.content.title.toLowerCase()" :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
+      <LazyCard v-for="story in data.stories" :key="story._uid" :alt="'Afbeelding over ' + story.content.title.toLowerCase()" :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
         <b>{{ story.content.title }}</b><br>
         <small>{{ story.content.teaser }}</small>
 
@@ -15,7 +15,7 @@
             Lees meer
           </Button>
         </template>
-      </Card>
+      </LazyCard>
     </div>
   </div>
 </template>

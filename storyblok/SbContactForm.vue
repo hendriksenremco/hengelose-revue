@@ -1,3 +1,3 @@
 <template>
-  <ContactForm />
+  <LazyContactForm />
 </template>

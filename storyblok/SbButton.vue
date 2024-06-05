@@ -1,5 +1,5 @@
 <template>
-  <Button
+  <LazyButton
     v-editable="blok"
     :color="blok.color"
     :size="blok.size"
@@ -11,7 +11,7 @@
     :target="blok.to.linktype === 'url' ? '_blank' : ''"
     :icon-pos="blok.iconPos">
     {{ blok.label }}
-  </Button>
+  </LazyButton>
 </template>
 <script setup>
 defineProps({ blok: Object })

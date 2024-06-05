@@ -1,5 +1,5 @@
 <template>
-  <HomeScroller />
+  <LazyHomeScroller />
 </template>
 <script setup>
 defineProps({ blok: Object })

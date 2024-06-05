@@ -2,14 +2,14 @@
   <div :class="$style['layout__header']">
     <StoryblokComponent v-for="blokBody in blok.header" :key="blokBody._uid" :blok="blokBody" />
   </div>
-  <Container :class="$style['layout']">
+  <LazyContainer :class="$style['layout']">
     <section :class="$style['layout__main']">
       <StoryblokComponent v-for="blokBody in blok.main" :key="blokBody._uid" :blok="blokBody" />
     </section>
     <aside :class="$style['layout__aside']">
       <StoryblokComponent v-for="blokBody in blok.aside" :key="blokBody._uid" :blok="blokBody" />
     </aside>
-  </Container>
+  </LazyContainer>
 </template>
 <script setup>
 const props = defineProps({ blok: Object })
