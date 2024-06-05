@@ -22,7 +22,6 @@
   <Footer />
 </template>
 <script setup>
-import { Menu } from 'lucide-vue-next'
 const { sidebarShouldShow, showSidebar, hideSidebar } = useLayout()
 
 useHead({
@@ -32,10 +31,6 @@ useHead({
       key: 'description',
       name: 'description',
       content: 'Twentse humor met een hoog entertainment gehalte'
-    },
-    {
-      name: 'robots',
-      content: 'noindex'
     }
   ]
 })
