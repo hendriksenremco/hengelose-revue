@@ -26,7 +26,7 @@ import { Menu } from 'lucide-vue-next'
 const { sidebarShouldShow, showSidebar, hideSidebar } = useLayout()
 
 useHead({
-  titleTemplate: titleChunk => titleChunk ? `${titleChunk} - Hengelose Revue` : 'Hengelose Revue - Voor heel twente',
+  titleTemplate: titleChunk => titleChunk ? `${titleChunk} - Hengelose Revue` : 'Hengelose Revue - Theater en meer...',
   meta: [
     {
       key: 'description',

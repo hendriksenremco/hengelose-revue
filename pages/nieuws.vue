@@ -1,6 +1,6 @@
 <template>
   <Container>
-    <h1>Nieuws van de Hengelose Revue</h1>
+    <h1>Nieuws</h1>
     <div :class="$style['grid']" class="h-margin-top-xl">
       <Card v-for="story in stories" :key="story._uid" :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
         <h4>{{ story.content.title }}</h4>
@@ -16,6 +16,9 @@
 </template>
 <script setup>
 const { stories } = await useHrStoryblok('cdn/stories', { version: 'published', starts_with: 'nieuws', is_startpage: false })
+useHead({
+  title: 'Nieuws'
+})
 </script>
 <style lang="scss" module>
 .grid {
