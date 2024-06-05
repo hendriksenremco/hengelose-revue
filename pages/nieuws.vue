@@ -3,7 +3,7 @@
     <h1>Nieuws</h1>
     <div :class="$style['grid']" class="h-margin-top-xl">
       <Card v-for="story in stories" :key="story._uid" :alt="'Afbeelding over ' + story.content.title.toLowerCase() " :to="{path: '/' + story.full_slug}" :image="story.content.image.filename ">
-        <h4>{{ story.content.title }}</h4>
+        <b>{{ story.content.title }}</b>
         <small>{{ story.content.teaser }}</small>
         <template #actions>
           <Button icon="MoveRight" icon-pos="right" color="transparent">
