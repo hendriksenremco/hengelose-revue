@@ -36,7 +36,7 @@ useHead({
     },
     {
       rel: 'preconnect',
-      href: 'https://rsms.me/',
+      href: 'https://rsms.me',
       crossorigin: 'anonymous'
     },
     {
