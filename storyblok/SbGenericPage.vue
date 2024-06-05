@@ -6,7 +6,7 @@ const props = defineProps({ blok: Object })
 useHead({
   title: props.blok?.title,
   meta: [
-    { name: 'description', content: props.blok?.description }
+    props.blok?.description ? { name: 'description', content: props.blok?.description } : null
   ]
 })
 </script>

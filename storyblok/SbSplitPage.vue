@@ -16,7 +16,7 @@ const props = defineProps({ blok: Object })
 useHead({
   title: props.blok?.title,
   meta: [
-    { name: 'description', content: props.blok?.description }
+    props.blok?.description ? { name: 'description', content: props.blok?.description } : null
   ]
 })
 </script>
@@ -27,7 +27,7 @@ useHead({
   gap: var(--spacing-xxl);
   min-width: 0;
 
-  @media (max-width: 70rem) {
+  @media (width <= 70rem) {
     grid-template-columns: minmax(0, 1fr);
     padding: var(--spacing-xl);
   }
