@@ -2,7 +2,7 @@
   <aside
     ref="root"
     :aria-hidden="!show"
-    tabindex="1"
+    :tabindex="show ? 1 : -1"
     :class="[
       $style['drawer'],
       {[$style['drawer--show']]:show}
