@@ -32,7 +32,10 @@ useHead({
       name: 'description',
       content: 'Twentse humor met een hoog entertainment gehalte'
     }
-  ]
+  ],
+  htmlAttrs: {
+    lang: 'nl'
+  }
 })
 </script>
 <style lang="scss" module>
