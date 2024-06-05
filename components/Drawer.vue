@@ -1,23 +1,20 @@
 <template>
   <aside
     ref="root"
-    :aria-hidden="!show"
-    :tabindex="show ? 1 : -1"
+    tabindex="1"
     :class="[
-      $style['drawer'],
-      {[$style['drawer--show']]:show}
+      $style['drawer']
     ]">
-    <slot v-if="show" />
+    <slot />
 
-    <Button
-      v-if="show"
+    <LazyButton
       icon="X"
       transparent
       icon-pos="right"
       :class="$style['drawer__close']"
       @click="$emit('close')">
       Sluiten
-    </Button>
+    </LazyButton>
     <div v-if="show":class="$style['drawer__bottom']">
       <slot name="bottom" />
     </div>
@@ -26,16 +23,8 @@
 <script setup>
 import { onClickOutside } from '@vueuse/core'
 const emit = defineEmits(['close'])
-const props = defineProps({
-  show: {
-    type: Boolean,
-    default: false
-  }
-})
 const root = ref()
-
-watch(() => props.show, () => {
-  if (!props.show) { return false }
+onMounted(() => {
   root.value.focus()
 })
 
@@ -50,19 +39,11 @@ onClickOutside(root, () => emit('close'))
     right: 0;
     height: 100vh;
     width: 90vw;
-    transform: translateX(100%);
-    transition: transform var(--duration-micro-normal) var(--easing-transition);
     background-color: hsl(var(--secondary-hue) var(--secondary-saturation) 30% / 95%);
     box-shadow: var(--box-shadow-elevation-3);
     padding-top: var(--spacing-xxxxl);
     z-index: 101;
     container: drawer / inline-size;
-    opacity: 0;
-
-    &--show {
-        transform: translateX(0);
-        opacity: 1;
-    }
 
     &__close {
       height: var(--topbar-height);

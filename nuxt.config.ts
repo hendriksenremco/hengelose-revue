@@ -88,16 +88,5 @@ export default defineNuxtConfig({
   sourcemap: {
     client: true,
     server: true
-  },
-  app: {
-    head: {
-      meta: [
-        {
-          rel: 'preconnect',
-          href: 'https://connect.facebook.net/',
-          crossorigin: 'anonymous'
-        }
-      ]
-    }
   }
 })

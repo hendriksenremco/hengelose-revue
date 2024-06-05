@@ -1,10 +1,12 @@
 <template>
-  <Drawer :show="sidebarShouldShow" @close="hideSidebar">
-    <Navigation />
-    <template #bottom>
-      <Socials />
-    </template>
-  </Drawer>
+  <DrawerTransition>
+    <LazyDrawer v-if="sidebarShouldShow" @close="hideSidebar">
+      <Navigation />
+      <template #bottom>
+        <Socials />
+      </template>
+    </LazyDrawer>
+  </DrawerTransition>
   <TopBar>
     <Navigation />
     <template #mobile>
