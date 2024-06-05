@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['gallery']">
     <div v-for="(item, index) in items" :key="item.id" :class="$style['gallery__item']" @click="showImage = parseInt(index) + 1">
-      <NuxtImg :src="item.filename" />
+      <NuxtImg format="webp" :src="item.filename" />
     </div>
   </div>
   <GalleryViewer v-if="showImage" :items="items" :active="showImage" @close="showImage = null" />
@@ -26,7 +26,7 @@ defineProps<{
     position: relative;
     overflow: hidden;
 
-    &:before {
+    &::before {
         content: '';
         display: block;
         position: absolute;
@@ -41,7 +41,7 @@ defineProps<{
     }
 
     &:hover {
-        &:before {
+        &::before {
           transform: translateY(-100%) translateZ(0);
         }
     }

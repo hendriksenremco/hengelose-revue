@@ -2,7 +2,7 @@
   <div :class="$style['person']">
     <div :class="$style['person__wrapper']">
       <div :class="$style['person__image']">
-        <NuxtImg width="400" :src="image" />
+        <NuxtImg format="webp" width="400" :src="image" />
       </div>
       <div :class="$style['person__content']">
         <h2 :class="$style['person__title']">
@@ -42,6 +42,7 @@ defineProps<{
         flex-direction: column;
     }
   }
+
   &__image {
     aspect-ratio: 1/1;
     display: flex;
@@ -68,6 +69,7 @@ defineProps<{
     font-family: var(--font-family-heading);
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-bold);
+
     // text-shadow: 2px 2px 0px var(--hr-black);
   }
 
@@ -82,10 +84,11 @@ defineProps<{
     font-weight: var(--font-weight-normal);
     width: 100%;
 
-    &:before {
+    &::before {
       content:'"'
     }
-    &:after {
+
+    &::after {
       content: '"'
     }
   }

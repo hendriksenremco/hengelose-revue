@@ -20,6 +20,12 @@ export default defineNuxtConfig({
       })
     ]
   },
+  nitro: {
+    compressPublicAssets: {
+      gzip: true
+    }
+  },
+
   modules: ['@storyblok/nuxt', '@vite-pwa/nuxt', '@nuxt/image', 'nuxt-gtag', '@nuxtjs/sitemap'],
 
   gtag: {
@@ -82,5 +88,16 @@ export default defineNuxtConfig({
   sourcemap: {
     client: true,
     server: true
+  },
+  app: {
+    head: {
+      meta: [
+        {
+          rel: 'preconnect',
+          href: 'https://connect.facebook.net/',
+          crossorigin: 'anonymous'
+        }
+      ]
+    }
   }
 })

@@ -3,7 +3,7 @@
     <Button icon-only icon="X" :class="$style['gallery-viewer__close']" @click="$emit('close')" />
     <div ref="wrapper" :class="$style['gallery-viewer__items']" @click="$emit('close')">
       <div v-for="(image, index) in items" ref="itemsEl" :key="image.id" :data-index="index" :class="$style['gallery-viewer__item']">
-        <NuxtImg :src="image.filename" />
+        <NuxtImg format="webp" :src="image.filename" />
       </div>
     </div>
     <div :class="$style['gallery-viewer__navigator']">
@@ -78,12 +78,11 @@ onMounted(() => {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  container: galleryViewer / inline-size;
+  container: galleryviewer / inline-size;
 
   &__items {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     width: auto;
     height: 100%;
     overflow-x: auto;

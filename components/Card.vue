@@ -1,7 +1,7 @@
 <template>
   <component :is="to ? nuxtLink : 'div'" :to="to" :class="[$style['card'],{[$style['card--contain']]: contain }, ,{[$style[`card--${background}`]]: background }]">
     <div v-if="image" :class="$style['card__image']">
-      <NuxtImg :src="image" :alt="alt" />
+      <NuxtImg format="webp" :src="image" :alt="alt" />
     </div>
     <div v-if="!image && !!$slots.image" :class="$style['card__image']">
       <slot name="image" />
@@ -19,7 +19,7 @@ const nuxtLink = resolveComponent('nuxt-link')
 interface Props {
   image?: string | null
   to?: object | null,
-  alt?: string | null,
+  alt?: string | undefined,
   contain?: boolean,
   background?: 'dark' | 'light' | null
 }
@@ -27,7 +27,8 @@ withDefaults(defineProps<Props>(), {
   image: null,
   to: null,
   contain: false,
-  background: null
+  background: null,
+  alt: undefined
 })
 </script>
 <style lang="scss" module>
