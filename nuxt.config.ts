@@ -78,5 +78,9 @@ export default defineNuxtConfig({
     'vite:extendConfig': (config, { isClient }) => {
       if (isClient) { config.resolve.alias.vue = 'vue/dist/vue.esm-bundler.js' }
     }
+  },
+  sourcemap: {
+    client: true,
+    server: true
   }
 })
