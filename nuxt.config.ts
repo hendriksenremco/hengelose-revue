@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import svgLoader from 'vite-svg-loader'
-
+import StoryblokClient from 'storyblok-js-client'
 export default defineNuxtConfig({
   vite: {
     plugins: [
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       })
     ]
   },
-  modules: ['@storyblok/nuxt', '@vite-pwa/nuxt', '@nuxt/image', 'nuxt-gtag'],
+  modules: ['@storyblok/nuxt', '@vite-pwa/nuxt', '@nuxt/image', 'nuxt-gtag', '@nuxtjs/sitemap'],
 
   gtag: {
     id: 'G-7HZH59NMZH'
@@ -28,6 +28,31 @@ export default defineNuxtConfig({
 
   storyblok: {
     accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'
+  },
+
+  sitemap: {
+    exclude: [
+      '/pers-kit',
+      '/styleguide'
+    ],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    },
+    urls: async () => {
+      const Storyblok = new StoryblokClient({
+        accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'
+      })
+      const links = await Storyblok.getAll('cdn/links', {
+        version: 'published'
+      })
+      const urls = links.filter(link => !link.real_path.includes('global')).map(link => {
+        return link.real_path
+      })
+
+      return urls
+    }
   },
 
   image: {
