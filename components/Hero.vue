@@ -1,17 +1,17 @@
 <template>
-  <div :class="[$style['hero'], {[$style['hero--height-auto']]: heightAuto}, {[$style['hero--no-overlay']]: noOverlay} ]">
+  <section :class="[$style['hero'], {[$style['hero--height-auto']]: heightAuto}, {[$style['hero--no-overlay']]: noOverlay} ]">
     <div :class="$style['hero__container']">
-      <div :class="$style['hero__background']">
+      <picture :class="$style['hero__background']">
         <slot name="background" />
-      </div>
-      <div :class="$style['hero__content']">
+      </picture>
+      <div v-if="!!$slots.default" :class="$style['hero__content']">
         <slot />
       </div>
-      <div :class="$style['hero__actions']">
+      <menu v-if="!!$slots.actions" :class="$style['hero__actions']">
         <slot name="actions" />
-      </div>
+      </menu>
     </div>
-  </div>
+  </section>
 </template>
 <script lang="ts" setup>
 interface Props {

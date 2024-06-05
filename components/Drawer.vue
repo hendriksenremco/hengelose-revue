@@ -1,5 +1,5 @@
 <template>
-  <nav
+  <aside
     ref="root"
     :aria-hidden="!show"
     tabindex="1"
@@ -21,7 +21,7 @@
     <div v-if="show":class="$style['drawer__bottom']">
       <slot name="bottom" />
     </div>
-  </nav>
+  </aside>
 </template>
 <script setup>
 import { onClickOutside } from '@vueuse/core'

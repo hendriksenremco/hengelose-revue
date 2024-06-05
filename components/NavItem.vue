@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['nav-item']">
+  <component :is="tag" :class="$style['nav-item']">
     <Button
       styleless
       :color="isActive ? 'opacity': isChildActive ? 'opacity': 'transparent'"
@@ -10,14 +10,14 @@
       @click.stop.prevent="onClick">
       <slot />
     </Button>
-    <div
+    <ul
       :class="[
         $style['nav-item__submenu'],
         {[$style['nav-item__submenu--show']]: showSub || (isChildActive && isMobile)}
       ]">
       <slot name="subitems" />
-    </div>
-  </div>
+    </ul>
+  </component>
 </template>
 <script setup>
 import { AppWindowMac } from 'lucide-vue-next'
@@ -27,6 +27,10 @@ const props = defineProps({
   to: {
     type: Object,
     default: null
+  },
+  tag: {
+    type: String,
+    default: 'div'
   },
   isActive: {
     type: Boolean,
@@ -66,7 +70,7 @@ watch(() => route.fullPath, () => {
 </script>
 <style lang="scss" module>
 .nav-item {
-
+    list-style: none;
     font-family: var(--font-family);
     font-weight: var(--font-weight-bold);
     position: relative;
@@ -83,7 +87,7 @@ watch(() => route.fullPath, () => {
     }
 
     &__submenu {
-      background-color: hsla(var(--secondary-hue),var(--secondary-saturation), 30%, 95%);
+      background-color: hsl(var(--secondary-hue) var(--secondary-saturation) 30% / 95%);
       box-shadow: var(--box-shadow-elevation-4);
       display: flex;
       flex-direction: column;
