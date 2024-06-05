@@ -1,7 +1,7 @@
 <template>
   <header :class="$style['top-bar']">
     <div :class="$style['container']">
-      <Button :to="{path: '/'}" color="transparent" :class="$style['top-bar__button']" styleless>
+      <Button :to="{path: '/'}" color="transparent" aria-label="Hengelose Revue" :class="$style['top-bar__button']" styleless>
         <Logo :class="$style['top-bar__logo']" />
       </Button>
       <div :class="$style['top-bar__content']">
@@ -19,10 +19,12 @@
 <style lang="scss" module>
 .top-bar {
     // background-color: var(--secondary-surface);
-    background: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,.9));
+    background: linear-gradient(0deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 90%));
     color: var(--secondary-on-surface);
+
     // box-shadow: var(--box-shadow-elevation-1);
     display: flex;
+
     // align-items: stretch;
     // justify-content: space-between;
     height: var(--topbar-height);
@@ -74,8 +76,10 @@
 
 .container {
     display: flex;
+
     // justify-content: space-between;
     flex-direction: row;
+
     // max-width: 80rem;
     margin: 0 auto;
     width: 100%;
