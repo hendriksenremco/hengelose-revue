@@ -3,10 +3,11 @@ export const useHrStoryblok = async (url, params) => {
   const route = useRoute()
   const data = ref(null)
   const editMode = ref(false)
-  const version = 'draft'
+  const version = ref('live')
 
   if (route.query?._storyblok) {
-    editMode.value = true
+    editMode.value = false
+    version.value = 'draft'
   }
 
   onMounted(async () => {
@@ -21,7 +22,7 @@ export const useHrStoryblok = async (url, params) => {
   })
 
   const storyblokApiInstance = useStoryblokApi()
-  const { data: sbData } = await storyblokApiInstance.get(url, { ...params, version })
+  const { data: sbData } = await storyblokApiInstance.get(url, { ...params, version: version.value })
   if (sbData) {
     data.value = sbData
   }

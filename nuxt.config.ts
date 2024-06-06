@@ -33,7 +33,9 @@ export default defineNuxtConfig({
   },
 
   storyblok: {
-    accessToken: 'Jehol4gVSqVfcrlkszKyhgtt'
+    accessToken: 'Jehol4gVSqVfcrlkszKyhgtt',
+    bridge: false,
+    devtools: false
   },
 
   sitemap: {
