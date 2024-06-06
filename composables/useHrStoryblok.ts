@@ -2,7 +2,7 @@
 export const useHrStoryblok = async (url, params) => {
   const route = useRoute()
   const data = ref(null)
-  const editMode = ref(true)
+  const editMode = ref(false)
   const version = 'draft'
 
   if (route.query?._storyblok) {
