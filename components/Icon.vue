@@ -1,4 +1,5 @@
 <script setup>
+import { Facebook, Instagram, MoveRight, Phone, Mail, Menu, ArrowRight, ChevronDown, ChevronLeft, ChevronRight, X } from 'lucide-vue-next'
 const props = defineProps({
   name: {
     type: String,
@@ -9,14 +10,17 @@ const props = defineProps({
   strokeWidth: Number,
   defaultClass: String
 })
-const fileName = props.name.split(/\.?(?=[A-Z])/).join('-').toLowerCase()
+const icons = { Facebook, Instagram, MoveRight, Phone, Mail, Menu, ArrowRight, ChevronDown, ChevronLeft, ChevronRight, X }
 
-const icon = await import(`~/node_modules/lucide-vue-next/dist/esm/icons/${fileName}.js`)
+if (!icons[props.name]) {
+  console.log('missing icon', props.name)
+}
+
 </script>
 
 <template>
   <component
-    :is="icon.default"
+    :is="icons[name]"
     :size="size"
     :color="color"
     :stroke-width="strokeWidth"

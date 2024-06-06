@@ -61,7 +61,6 @@ onMounted(() => {
   intersectionObserver.value = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        console.log(entry)
         visibleIndex.value = parseInt(entry.target.dataset.index)
       }
     })
