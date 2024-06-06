@@ -11,7 +11,7 @@ export const useHrStoryblok = async (url, params) => {
 
   onMounted(async () => {
     await nextTick()
-    if (data.value?.story?.id) {
+    if (data.value?.story?.id && editMode.value) {
       await useStoryblokBridge(
         data.value.story.id,
         evStory => { data.value.story = evStory },
@@ -20,7 +20,6 @@ export const useHrStoryblok = async (url, params) => {
     }
   })
 
-  // if (editMode.value) {
   const storyblokApiInstance = useStoryblokApi()
   const { data: sbData } = await storyblokApiInstance.get(url, { ...params, version })
   if (sbData) {
