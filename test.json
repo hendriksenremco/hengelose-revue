@@ -1,0 +1,3401 @@
+{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-11T19:00:00-04:00",
+  "endDate": "2024-06-11",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-12T14:00:00-04:00",
+  "endDate": "2024-06-12",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-12T20:00:00-04:00",
+  "endDate": "2024-06-12",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-13T19:00:00-04:00",
+  "endDate": "2024-06-13",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-14T20:00:00-04:00",
+  "endDate": "2024-06-14",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-15T14:00:00-04:00",
+  "endDate": "2024-06-15",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-15T20:00:00-04:00",
+  "endDate": "2024-06-15",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-16T14:00:00-04:00",
+  "endDate": "2024-06-16",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-17T19:00:00-04:00",
+  "endDate": "2024-06-17",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-18T19:00:00-04:00",
+  "endDate": "2024-06-18",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-20T19:00:00-04:00",
+  "endDate": "2024-06-20",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-21T20:00:00-04:00",
+  "endDate": "2024-06-21",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-22T14:00:00-04:00",
+  "endDate": "2024-06-22",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-22T20:00:00-04:00",
+  "endDate": "2024-06-22",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-23T14:00:00-04:00",
+  "endDate": "2024-06-23",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-23T19:30:00-04:00",
+  "endDate": "2024-06-23",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-25T19:00:00-04:00",
+  "endDate": "2024-06-25",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-26T14:00:00-04:00",
+  "endDate": "2024-06-26",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-26T20:00:00-04:00",
+  "endDate": "2024-06-26",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-27T19:00:00-04:00",
+  "endDate": "2024-06-27",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-28T20:00:00-04:00",
+  "endDate": "2024-06-28",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-29T14:00:00-04:00",
+  "endDate": "2024-06-29",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-29T20:00:00-04:00",
+  "endDate": "2024-06-29",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-06-30T15:00:00-04:00",
+  "endDate": "2024-06-30",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-01T19:00:00-04:00",
+  "endDate": "2024-07-01",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-02T19:00:00-04:00",
+  "endDate": "2024-07-02",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-03T14:00:00-04:00",
+  "endDate": "2024-07-03",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-03T19:30:00-04:00",
+  "endDate": "2024-07-03",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-05T19:00:00-04:00",
+  "endDate": "2024-07-05",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-06T14:00:00-04:00",
+  "endDate": "2024-07-06",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-06T20:00:00-04:00",
+  "endDate": "2024-07-06",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-07T15:00:00-04:00",
+  "endDate": "2024-07-07",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-09T19:00:00-04:00",
+  "endDate": "2024-07-09",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-10T14:00:00-04:00",
+  "endDate": "2024-07-10",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-10T19:30:00-04:00",
+  "endDate": "2024-07-10",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-11T19:00:00-04:00",
+  "endDate": "2024-07-11",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-12T19:00:00-04:00",
+  "endDate": "2024-07-12",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-13T14:00:00-04:00",
+  "endDate": "2024-07-13",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-13T20:00:00-04:00",
+  "endDate": "2024-07-13",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-14T15:00:00-04:00",
+  "endDate": "2024-07-14",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-16T19:00:00-04:00",
+  "endDate": "2024-07-16",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-17T14:00:00-04:00",
+  "endDate": "2024-07-17",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-17T19:30:00-04:00",
+  "endDate": "2024-07-17",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-18T19:00:00-04:00",
+  "endDate": "2024-07-18",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-19T19:00:00-04:00",
+  "endDate": "2024-07-19",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-20T14:00:00-04:00",
+  "endDate": "2024-07-20",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-20T20:00:00-04:00",
+  "endDate": "2024-07-20",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-21T15:00:00-04:00",
+  "endDate": "2024-07-21",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-23T19:00:00-04:00",
+  "endDate": "2024-07-23",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-24T14:00:00-04:00",
+  "endDate": "2024-07-24",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-24T19:30:00-04:00",
+  "endDate": "2024-07-24",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-25T19:00:00-04:00",
+  "endDate": "2024-07-25",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-26T19:00:00-04:00",
+  "endDate": "2024-07-26",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-27T14:00:00-04:00",
+  "endDate": "2024-07-27",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-27T20:00:00-04:00",
+  "endDate": "2024-07-27",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-28T15:00:00-04:00",
+  "endDate": "2024-07-28",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-30T19:00:00-04:00",
+  "endDate": "2024-07-30",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-31T14:00:00-04:00",
+  "endDate": "2024-07-31",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-07-31T19:30:00-04:00",
+  "endDate": "2024-07-31",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/07/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-01T19:00:00-04:00",
+  "endDate": "2024-08-01",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-02T19:00:00-04:00",
+  "endDate": "2024-08-02",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-03T14:00:00-04:00",
+  "endDate": "2024-08-03",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-03T20:00:00-04:00",
+  "endDate": "2024-08-03",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-04T15:00:00-04:00",
+  "endDate": "2024-08-04",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-06T19:00:00-04:00",
+  "endDate": "2024-08-06",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-07T14:00:00-04:00",
+  "endDate": "2024-08-07",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-07T19:30:00-04:00",
+  "endDate": "2024-08-07",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-08T19:00:00-04:00",
+  "endDate": "2024-08-08",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-09T19:00:00-04:00",
+  "endDate": "2024-08-09",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-10T14:00:00-04:00",
+  "endDate": "2024-08-10",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-10T20:00:00-04:00",
+  "endDate": "2024-08-10",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-11T15:00:00-04:00",
+  "endDate": "2024-08-11",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-13T19:00:00-04:00",
+  "endDate": "2024-08-13",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-14T14:00:00-04:00",
+  "endDate": "2024-08-14",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-14T19:30:00-04:00",
+  "endDate": "2024-08-14",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-15T19:00:00-04:00",
+  "endDate": "2024-08-15",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-16T19:00:00-04:00",
+  "endDate": "2024-08-16",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-17T14:00:00-04:00",
+  "endDate": "2024-08-17",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-17T20:00:00-04:00",
+  "endDate": "2024-08-17",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-18T15:00:00-04:00",
+  "endDate": "2024-08-18",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-20T19:00:00-04:00",
+  "endDate": "2024-08-20",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-21T14:00:00-04:00",
+  "endDate": "2024-08-21",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-21T19:30:00-04:00",
+  "endDate": "2024-08-21",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-22T19:00:00-04:00",
+  "endDate": "2024-08-22",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-23T19:00:00-04:00",
+  "endDate": "2024-08-23",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-24T14:00:00-04:00",
+  "endDate": "2024-08-24",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-24T20:00:00-04:00",
+  "endDate": "2024-08-24",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-25T15:00:00-04:00",
+  "endDate": "2024-08-25",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-27T19:00:00-04:00",
+  "endDate": "2024-08-27",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-28T14:00:00-04:00",
+  "endDate": "2024-08-28",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-28T19:30:00-04:00",
+  "endDate": "2024-08-28",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-29T19:00:00-04:00",
+  "endDate": "2024-08-29",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-30T19:00:00-04:00",
+  "endDate": "2024-08-30",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-31T14:00:00-04:00",
+  "endDate": "2024-08-31",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-08-31T20:00:00-04:00",
+  "endDate": "2024-08-31",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/08/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-09-01T15:00:00-04:00",
+  "endDate": "2024-09-01",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/09/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-09-03T19:00:00-04:00",
+  "endDate": "2024-09-03",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/09/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-09-04T14:00:00-04:00",
+  "endDate": "2024-09-04",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/09/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-09-04T19:30:00-04:00",
+  "endDate": "2024-09-04",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/09/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "TheaterEvent",
+  "name": "The Notebook  - Broadway Tickets",
+  "startDate": "2024-09-05T19:00:00-04:00",
+  "endDate": "2024-09-05",
+  "description": "The musical adaptation of Nicholas Sparks' novel comes to Broadway, featuring music by Ingrid Michaelson.",
+  "image": "https://imaging.broadway.com/images/widescreen-169/w1920/127487-26.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Schoenfeld Theatre",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "streetAddress": "236 West 45th Street",
+      "postalCode": "10036"
+    },
+    "url": "https://www.broadway.com/venues/theaters/schoenfeld-theatre/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "url": "https://checkout.broadway.com/the-notebook/13058/calendar/2024/09/",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "2024-03-14",
+    "price": "58.26"
+  },
+  "performers": {
+    "@type": "TheaterGroup",
+    "url": "https://www.broadway.com/shows/the-notebook/",
+    "name": "The Notebook - New York"
+  }
+}</script>

@@ -34,7 +34,7 @@ withDefaults(defineProps<Props>(), {
   display: flex;
   gap: var(--spacing-l);
   height: 85vh;
-  padding: var(--spacing-xxl);
+  padding: var(--spacing-xxxxl);
   position: relative;
   width: 100%;
   container: hero / inline-size;
@@ -82,7 +82,6 @@ withDefaults(defineProps<Props>(), {
   }
 
   &__container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +101,6 @@ withDefaults(defineProps<Props>(), {
 
     h1 {
       text-transform: uppercase;
-
       font-size: clamp(1.5rem, 9cqw, 3.5rem);
       letter-spacing: 2px;
     }

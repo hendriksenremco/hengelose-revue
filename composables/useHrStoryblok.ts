@@ -16,7 +16,7 @@ export const useHrStoryblok = async (url, params) => {
       await useStoryblokBridge(
         data.value.story.id,
         evStory => { data.value.story = evStory },
-        { preventClicks: true }
+        { ...params, preventClicks: true }
       )
     }
   })
