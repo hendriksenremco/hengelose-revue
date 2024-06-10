@@ -25,7 +25,7 @@ const props = defineProps({ blok: Object })
 
 const ldJson = props.blok.events.map(event => {
   return {
-    type: 'application/json',
+    type: 'application/ld+json',
     innerHTML: {
       '@context': 'http://schema.org',
       '@type': 'TheaterEvent',
