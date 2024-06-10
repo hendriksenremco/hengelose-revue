@@ -18,10 +18,10 @@ useHead({
         description: 'Theater en meer... "Effe wachten" in de Schouwburg Hengelo. 31 januari, 1, 2, 5, 6 en 7 februari 2025! Koop nu je kaarten!',
         name: 'Hengelose Revue',
         inLanguage: 'nl-NL',
-        image: ['/open-graph.jpg'],
+        image: ['https://hengeloserevue.nl/open-graph.jpg'],
         publisher: {
           '@type': 'Organization',
-          '@id': 'https://www.gutsgusto.com#Organization',
+          '@id': 'https://hengeloserevue.nl#Organization',
           name: 'Hengelose Revue',
           url: 'https://hengeloserevue.nl',
           sameAs: [
@@ -30,10 +30,18 @@ useHead({
           ],
           logo: {
             '@type': 'ImageObject',
-            url: '/brand/logo/logo_fc.png',
+            url: 'https://hengeloserevue.nl/brand/logo/logo_fc.png',
             width: 2000,
             height: 478
-          }
+          },
+          address: {
+            '@type': 'PostalAddress',
+            addressCountry: 'NL',
+            addressLocality: 'Hengelo',
+            streetAddress: 'Torenlaan 5 3',
+            postalCode: '7559 PK'
+          },
+          telephone: '074 291 8579'
         }
       }
     }

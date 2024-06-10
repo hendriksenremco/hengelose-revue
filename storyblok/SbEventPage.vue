@@ -31,7 +31,7 @@ const ldJson = props.blok.events.map(event => {
       '@type': 'TheaterEvent',
       name: 'Effe Wachten... - De Hengelose Revue',
       startDate: event.content.date,
-      description: 'Een show oordevol hilarische en komische toneelscènes, schitterende dansen en prachtige muziek van een live band en vier zangers..',
+      description: 'Een show boordevol hilarische en komische toneelscènes, schitterende dansen en prachtige muziek van een live band en vier zangers..',
       image: 'https://hengeloserevue.nl/open-graph.jpg',
       location: {
         '@type': 'Place',
@@ -41,7 +41,7 @@ const ldJson = props.blok.events.map(event => {
           addressCountry: 'NL',
           addressLocality: 'Hengelo',
           streetAddress: 'Beursstraat 44',
-          postalCode: '7551 HV '
+          postalCode: '7551 HV'
         },
         url: 'https://www.schouwburghengelo.nl/'
       },
