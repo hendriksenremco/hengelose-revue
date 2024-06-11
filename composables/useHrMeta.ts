@@ -104,11 +104,6 @@ export const useHrMeta = () => {
           key: 'og:image:type',
           property: 'og:image:type',
           content: 'image/jpeg'
-        },
-        {
-          key: 'og:image:secure_url',
-          property: 'og:image:secure_url',
-          content: 'https://hengeloserevue.nl/open-graph.jpg'
         }
       ],
       htmlAttrs: {
@@ -242,5 +237,46 @@ export const useHrMeta = () => {
     })
   }
 
-  return { formatDefault, formatHome, formatEvent, formatAlbum, formatContact }
+  const formatNewsItem = (title: string, description: string, item:any) => {
+    const route = useRoute()
+    const img = useImage()
+    useHead({
+      title,
+      meta: [
+        { name: 'description', content: description },
+        {
+          key: 'og:title',
+          property: 'og:title',
+          content: 'Hengelose Revue - Theater en meer...'
+        },
+        {
+          key: 'og:description',
+          property: 'og:description',
+          content: description
+        },
+        {
+          key: 'og:image',
+          property: 'og:image',
+          content: img(item.image?.filename, { format: 'webp', width: 1200, height: 633 })
+        }
+      ],
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: {
+            '@context': 'https://schema.org',
+            '@type': 'NewsArticle',
+            headline: title,
+            abstract: description,
+            url: `https://hengeloserevue.nl/${route.fullPath}`,
+            inLanguage: 'nl-NL',
+            image: [img(item.image?.filename, { format: 'webp', width: 1200, height: 633 })],
+            publisher
+          }
+        }
+      ]
+    })
+  }
+
+  return { formatDefault, formatHome, formatEvent, formatAlbum, formatContact, formatNewsItem }
 }

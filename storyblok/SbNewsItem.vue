@@ -16,6 +16,8 @@
   </Container>
 </template>
 <script setup>
+const { formatNewsItem } = useHrMeta()
 const props = defineProps({ blok: Object })
 const resolvedRichText = computed(() => renderRichText(props.blok.text))
+formatNewsItem(props.blok.title, props.blok.teaser, props.blok)
 </script>
