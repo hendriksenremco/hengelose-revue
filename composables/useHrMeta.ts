@@ -112,7 +112,7 @@ export const useHrMeta = () => {
     })
   }
 
-  const formatHome = (title: string, description: string) => {
+  const formatHome = (title: string) => {
     useHead({
       title,
       meta: [{ name: 'description', content: description }],
