@@ -25,30 +25,9 @@
 </template>
 <script setup>
 const { sidebarShouldShow, showSidebar, hideSidebar } = useLayout()
+const { formatDefault } = useHrMeta()
+formatDefault()
 
-useHead({
-  titleTemplate: titleChunk => titleChunk ? `${titleChunk} - Hengelose Revue` : 'Hengelose Revue - Theater en meer...',
-  meta: [
-    {
-      key: 'description',
-      name: 'description',
-      content: 'Theater en meer...'
-    },
-    {
-      rel: 'preconnect',
-      href: 'https://rsms.me',
-      crossorigin: 'anonymous'
-    },
-    {
-      rel: 'preconnect',
-      href: 'https://www.googletagmanager.com',
-      crossorigin: 'anonymous'
-    }
-  ],
-  htmlAttrs: {
-    lang: 'nl'
-  }
-})
 </script>
 <style lang="scss" module>
 .layout {
