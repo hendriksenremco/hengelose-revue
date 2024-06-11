@@ -93,7 +93,8 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/verhuurfolder': { redirect: { to: '/verhuur/', statusCode: 301 } },
-    '/filmpjes': { redirect: { to: '/impressie/achter-de-schermen/', statusCode: 301 } },
-    '/sponsoren': { redirect: { to: '/sponsoring/', statusCode: 301 } }
+    '/filmpjes': { redirect: { to: '/impressie/achter-de-schermen', statusCode: 301 } },
+    '/sponsoren': { redirect: { to: '/sponsoring/', statusCode: 301 } },
+    '/videos-2023': { redirect: { to: '/impressie/2023-hoge-nood', statusCode: 301 } }
   }
 })
