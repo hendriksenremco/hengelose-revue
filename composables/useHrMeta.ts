@@ -1,7 +1,7 @@
 export const useHrMeta = () => {
   const image = ['https://hengeloserevue.nl/open-graph.jpg']
 
-  const description = '"Effe wachten" in de Schouwburg Hengelo. 31 januari, 1, 2, 5, 6 en 7 februari 2025! Koop nu je kaarten!'
+  const description = '"Effe Wachten" in de Schouwburg Hengelo. 31 januari, 1, 2, 5, 6 en 7 februari 2025! Koop nu je kaarten!'
   const address = {
     '@type': 'PostalAddress',
     addressCountry: 'NL',
