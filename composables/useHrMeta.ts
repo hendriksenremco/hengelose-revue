@@ -75,20 +75,19 @@ export const useHrMeta = () => {
           content: 'https://hengeloserevue.nl'
         },
         {
-          key: 'og:image-3',
+          key: 'og:image',
           property: 'og:image',
-          content: 'https://hengeloserevue.nl/open-graph-3.jpg'
+          content: 'https://hengeloserevue.nl/open-graph.jpg'
         },
         {
           key: 'og:image-2',
           property: 'og:image',
           content: 'https://hengeloserevue.nl/open-graph-2.jpg'
         },
-
         {
-          key: 'og:image',
+          key: 'og:image-3',
           property: 'og:image',
-          content: 'https://hengeloserevue.nl/open-graph.jpg'
+          content: 'https://hengeloserevue.nl/open-graph-3.jpg'
         },
         {
           key: 'og:image:width',
