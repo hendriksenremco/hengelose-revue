@@ -90,5 +90,10 @@ export default defineNuxtConfig({
   sourcemap: {
     client: true,
     server: true
+  },
+  routeRules: {
+    '/verhuurfolder': { redirect: { to: '/verhuur/', statusCode: 301 } },
+    '/filmpjes': { redirect: { to: '/impressie/achter-de-schermen/', statusCode: 301 } },
+    '/sponsoren': { redirect: { to: '/sponsoring/', statusCode: 301 } }
   }
 })
