@@ -247,7 +247,7 @@ export const useHrMeta = () => {
         {
           key: 'og:title',
           property: 'og:title',
-          content: 'Hengelose Revue - Theater en meer...'
+          content: title
         },
         {
           key: 'og:description',
@@ -257,7 +257,7 @@ export const useHrMeta = () => {
         {
           key: 'og:image',
           property: 'og:image',
-          content: img(item.image?.filename, { format: 'webp', width: 1200, height: 633 })
+          content: 'http://hengeloserevue.nl' + img(item.image?.filename, { format: 'webp', width: 1200, height: 633 })
         }
       ],
       script: [
