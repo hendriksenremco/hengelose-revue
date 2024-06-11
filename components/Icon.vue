@@ -1,5 +1,5 @@
 <script setup>
-import { Facebook, Instagram, MoveRight, ExternalLink, Phone, Mail, Menu, ArrowRight, ChevronDown, ChevronLeft, ChevronRight, X } from 'lucide-vue-next'
+import { Facebook, Instagram, MoveRight, ArrowLeft, ExternalLink, Phone, Mail, Menu, ArrowRight, ChevronDown, ChevronLeft, ChevronRight, X } from 'lucide-vue-next'
 const props = defineProps({
   name: {
     type: String,
@@ -10,7 +10,7 @@ const props = defineProps({
   strokeWidth: Number,
   defaultClass: String
 })
-const icons = { Facebook, Instagram, MoveRight, ExternalLink, Phone, Mail, Menu, ArrowRight, ChevronDown, ChevronLeft, ChevronRight, X }
+const icons = { Facebook, Instagram, MoveRight, ArrowLeft, ExternalLink, Phone, Mail, Menu, ArrowRight, ChevronDown, ChevronLeft, ChevronRight, X }
 
 if (!icons[props.name]) {
   console.log('missing icon', props.name)
