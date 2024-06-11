@@ -1,7 +1,7 @@
 <template>
   <ul :class="$style['navigation']">
     <LazyNavItem
-      v-for="item in story.content.items"
+      v-for="item in navigation.items"
       :key="item.parent.full_slug"
       tag="li"
       :is-active="isActive(item.parent.full_slug)"
@@ -24,7 +24,7 @@
 </template>
 <script setup>
 const route = useRoute()
-const { story } = await useHrStoryblok('cdn/stories/global/navigation', { resolve_relations: 'NavigationItem.items,NavigationItem.parent', resolve_links: 'story', version: 'draft' })
+const { navigation } = useNavigation()
 
 const isActive = item => {
   return route.path === `/${item}`

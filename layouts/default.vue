@@ -25,9 +25,14 @@
 </template>
 <script setup>
 const { sidebarShouldShow, showSidebar, hideSidebar } = useLayout()
-const { formatDefault } = useHrMeta()
+const { navigation } = useNavigation()
+const { formatDefault, formatBreadcrumbs } = useHrMeta()
+const route = useRoute()
 formatDefault()
 
+watch(() => route.path, () => {
+  formatBreadcrumbs(navigation)
+})
 </script>
 <style lang="scss" module>
 .layout {

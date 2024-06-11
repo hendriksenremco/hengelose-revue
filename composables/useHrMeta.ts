@@ -278,5 +278,45 @@ export const useHrMeta = () => {
     })
   }
 
-  return { formatDefault, formatHome, formatEvent, formatAlbum, formatContact, formatNewsItem }
+  const formatBreadcrumbs = (navigation:any) => {
+    const route = useRoute()
+    const list = ref([])
+    navigation.value.items.forEach(item => {
+      if (route.fullPath.includes(item.parent.full_slug)) {
+        // Add list item
+        list.value.push({
+          '@type': 'ListItem',
+          position: 1,
+          name: item.parent.name,
+          item: `https://hengeloserevue.nl/${item.parent.full_slug}`
+        })
+
+        item.items.forEach(child => {
+          if (route.fullPath.includes(child.full_slug)) {
+            list.value.push({
+              '@type': 'ListItem',
+              position: 2,
+              name: child.name,
+              item: `https://hengeloserevue.nl/${child.full_slug}`
+            })
+          }
+        })
+      }
+    })
+
+    useHead({
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: list.value
+          }
+        }
+      ]
+    })
+  }
+
+  return { formatDefault, formatHome, formatEvent, formatAlbum, formatContact, formatNewsItem, formatBreadcrumbs }
 }

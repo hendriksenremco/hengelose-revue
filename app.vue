@@ -5,7 +5,11 @@
     <NuxtPage />
   </NuxtLayout>
 </template>
-  <style module lang="scss">
-  @import "~/css/main.css";
-  @import '~/css/_helpers';
-  </style>
+<script setup>
+const { load } = useNavigation()
+await load()
+</script>
+<style module lang="scss">
+@import "~/css/main.css";
+@import '~/css/_helpers';
+</style>
