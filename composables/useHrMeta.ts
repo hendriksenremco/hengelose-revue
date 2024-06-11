@@ -26,6 +26,7 @@ export const useHrMeta = () => {
       width: 2000,
       height: 478
     },
+    image,
     address,
     telephone
   }
@@ -163,6 +164,7 @@ export const useHrMeta = () => {
           },
           offers: {
             '@type': 'Offer',
+            validFrom: event.content.date,
             priceCurrency: 'EUR',
             url: event.content.url.cached_url,
             availability: 'http://schema.org/InStock',
