@@ -165,12 +165,10 @@ const icons = reactive([
 </script>
 <style lang="scss" module>
 .grid {
-  align-items: stretch;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--spacing-xxl);
-  align-items: start;
-  justify-items: space-between;
+  place-items: start space-between;
 
   & > * {
     height: 100%;
