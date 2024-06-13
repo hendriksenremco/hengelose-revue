@@ -145,6 +145,11 @@ export const useHrMeta = () => {
           startDate: event.content.date,
           description,
           image,
+          eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+          eventStatus: 'https://schema.org/EventScheduled',
+          organizer: publisher,
+          inLanguage: 'nl',
+          typicalAgeRange: '18-85',
           location: {
             '@type': 'Place',
             name: 'Schouwburg Hengelo',
@@ -162,6 +167,7 @@ export const useHrMeta = () => {
             validFrom: event.content.date,
             priceCurrency: 'EUR',
             url: event.content.url.cached_url,
+            sameAs: event.content.url.cached_url,
             availability: 'http://schema.org/InStock',
             price: '19.50'
           },
