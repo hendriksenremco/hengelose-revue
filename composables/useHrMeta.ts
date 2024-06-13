@@ -148,7 +148,7 @@ export const useHrMeta = () => {
           eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
           eventStatus: 'https://schema.org/EventScheduled',
           organizer: publisher,
-          inLanguage: 'nl',
+          inLanguage: 'nl-NL',
           typicalAgeRange: '18-85',
           location: {
             '@type': 'Place',
@@ -164,7 +164,7 @@ export const useHrMeta = () => {
           },
           offers: {
             '@type': 'Offer',
-            validFrom: event.content.date,
+            validFrom: '2024-02-01',
             priceCurrency: 'EUR',
             url: event.content.url.cached_url,
             sameAs: event.content.url.cached_url,
