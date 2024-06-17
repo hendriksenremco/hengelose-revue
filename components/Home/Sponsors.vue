@@ -23,21 +23,26 @@ const clonedStories = [...sortedStories, ...sortedStories, ...sortedStories]
 <style lang="scss" module>
 .sponsors {
   display: flex;
-  gap: var(--spacing-xxl);
+  gap: var(--spacing-xxxl);
   overflow: hidden;
+  mix-blend-mode: hard-light;
 
   &__item {
-    aspect-ratio: 3/1;
-    box-shadow: var(--box-shadow-elevation-2);
-
-    // background-color: var(--text-base);
     color: var(--background-base);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0.8;
-    width: 100%;
+    opacity: 0.5;
+    height: 5rem;
+    transform: scale(0.9);
+    transition: transform var(--duration-micro-normal) var(--easing-transition);
+    will-change: transform;
+
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1);
+    }
   }
 
   &__image {
