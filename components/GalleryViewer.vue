@@ -53,21 +53,26 @@ const goNext = () => {
   itemsEl.value[visibleIndex.value + 1].scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' })
 }
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick()
+
   if (props.active && itemsEl.value) {
-    itemsEl.value[props.active - 1].scrollIntoView() // Gallery sends index + 1 to prevent null-errors
+    visibleIndex.value = props.active - 1
+    wrapper.value.scrollLeft = itemsEl.value[props.active - 1].offsetLeft
   }
 
-  intersectionObserver.value = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        visibleIndex.value = parseInt(entry.target.dataset.index)
-      }
+  setTimeout(() => {
+    intersectionObserver.value = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          visibleIndex.value = parseInt(entry.target.dataset.index)
+        }
+      })
+    }, { rootMargin: '100px', threshold: 0.5 })
+    itemsEl.value.forEach(item => {
+      intersectionObserver.value.observe(item)
     })
-  }, { rootMargin: '10px', threshold: 0.5 })
-  itemsEl.value.forEach(item => {
-    intersectionObserver.value.observe(item)
-  })
+  }, 1000)
 })
 </script>
 <style lang="scss" module>

@@ -29,7 +29,8 @@ const clonedStories = [...sortedStories, ...sortedStories, ...sortedStories]
   &__item {
     aspect-ratio: 3/1;
     box-shadow: var(--box-shadow-elevation-2);
-    background-color: var(--text-base);
+
+    // background-color: var(--text-base);
     color: var(--background-base);
     display: flex;
     flex-direction: column;
@@ -48,11 +49,12 @@ const clonedStories = [...sortedStories, ...sortedStories, ...sortedStories]
   }
 
   &__name {
-
+    color: var(--text-base);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--font-family-heading);
+    font-weight: var(--font-weight-bold);
     padding: var(--spacing);
     width: 100%;
     height: 100%;
