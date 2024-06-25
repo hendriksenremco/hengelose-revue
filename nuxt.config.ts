@@ -74,12 +74,61 @@ export default defineNuxtConfig({
 
   pwa: {
     manifest: {
-      name: 'Hengelose Revue | Dé Twentse Revue',
+      name: 'Hengelose Revue | Meer dan theater...',
       short_name: 'Hengelose Revue',
-      theme_color: '#272625'
+      theme_color: '#000000',
+      description: '"Effe Wachten" in de Schouwburg Hengelo. 31 januari, 1, 2, 5, 6 en 7 februari 2025! Koop nu je kaarten!',
+      screenshots: [
+        {
+          src: '/pwa/screenshot-narrow-1.jpg',
+          sizes: '630x1200',
+          type: 'image/jpg',
+          form_factor: 'narrow',
+          label: 'Hengelose Revue'
+        },
+        {
+          src: '/pwa/screenshot-narrow-2.jpg',
+          sizes: '630x1200',
+          type: 'image/jpg',
+          form_factor: 'narrow',
+          label: 'Hengelose Revue'
+        },
+        {
+          src: '/pwa/screenshot-narrow-3.jpg',
+          sizes: '630x1200',
+          type: 'image/jpg',
+          form_factor: 'narrow',
+          label: 'Hengelose Revue'
+        },
+        {
+          src: '/open-graph.jpg',
+          sizes: '1200x630',
+          type: 'image/jpg',
+          form_factor: 'wide',
+          label: 'Hengelose Revue'
+        },
+        {
+          src: '/open-graph-2.jpg',
+          sizes: '1200x630',
+          type: 'image/jpg',
+          form_factor: 'wide',
+          label: 'Hengelose Revue'
+        },
+        {
+          src: '/open-graph-3.jpg',
+          sizes: '1200x630',
+          type: 'image/jpg',
+          form_factor: 'wide',
+          label: 'Hengelose Revue'
+        }
+      ]
     },
     pwaAssets: {
       config: true
+    },
+    devOptions: {
+      enabled: true,
+      type: 'module'
     }
   },
   hooks: {
