@@ -98,15 +98,15 @@ export default defineNuxtConfig({
     '/videos-2023': { redirect: { to: '/impressie/2023-hoge-nood', statusCode: 301 } }
   },
   runtimeConfig: {
-    mysqlHost: '',
-    mysqlUser: '',
-    mysqlPassword: '',
-    mysqlDatabase: '',
-    mysqlPort: 3306,
-    mailHost: '',
-    mailPort: 587,
-    mailUser: '',
-    mailPassword: '',
-    mailTo: ''
+    mysqlHost: process.env.NUXT_MYSQL_HOST,
+    mysqlUser: process.env.NUXT_MYSQL_USER,
+    mysqlPassword: process.env.NUXT_MYSQL_PASSWORD,
+    mysqlDatabase: process.env.NUXT_MYSQL_DATABASE,
+    mysqlPort: process.env.NUXT_MYSQL_PORT,
+    mailHost: process.env.NUXT_MAIL_HOST,
+    mailPort: process.env.NUXT_MAIL_PORT,
+    mailUser: process.env.NUXT_MAIL_USER,
+    mailPassword: process.env.NUXT_MAIL_PASSWORD,
+    mailTo: process.env.NUXT_MAIL_TO
   }
 })
