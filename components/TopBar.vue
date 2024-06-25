@@ -27,9 +27,9 @@
 
     // align-items: stretch;
     // justify-content: space-between;
-    height: var(--topbar-height);
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 100;
     container: topbar / inline-size;
@@ -79,9 +79,14 @@
 
     // justify-content: space-between;
     flex-direction: row;
+    width: 100%;
+
+    padding-top: env(titlebar-area-height, 0);
+    height: calc(var(--topbar-height) + env(titlebar-area-height));
 
     // max-width: 80rem;
     margin: 0 auto;
-    width: 100%;
+
+    // width: 100%;
 }
 </style>

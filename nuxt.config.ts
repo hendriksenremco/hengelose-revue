@@ -74,9 +74,11 @@ export default defineNuxtConfig({
 
   pwa: {
     manifest: {
-      name: 'Hengelose Revue | Meer dan theater...',
+      name: 'Hengelose Revue',
       short_name: 'Hengelose Revue',
       theme_color: '#000000',
+      display: 'standalone',
+      display_override: ['window-controls-overlay', 'minimal-ui'],
       description: '"Effe Wachten" in de Schouwburg Hengelo. 31 januari, 1, 2, 5, 6 en 7 februari 2025! Koop nu je kaarten!',
       screenshots: [
         {

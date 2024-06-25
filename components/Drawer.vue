@@ -41,7 +41,7 @@ onClickOutside(root, () => emit('close'))
     width: 90vw;
     background-color: hsl(var(--secondary-hue) var(--secondary-saturation) 30% / 95%);
     box-shadow: var(--box-shadow-elevation-3);
-    padding-top: var(--spacing-xxxxl);
+    padding-top: calc(env(titlebar-area-height) + var(--spacing-xxxxl));
     z-index: 101;
     container: drawer / inline-size;
 
@@ -49,7 +49,7 @@ onClickOutside(root, () => emit('close'))
       height: var(--topbar-height);
       position: absolute;
       right: 0;
-      top: 0;
+      top: env(titlebar-area-height, 0);
     }
 
     &__bottom {
