@@ -96,5 +96,17 @@ export default defineNuxtConfig({
     '/filmpjes': { redirect: { to: '/impressie/achter-de-schermen', statusCode: 301 } },
     '/sponsoren': { redirect: { to: '/sponsoring/', statusCode: 301 } },
     '/videos-2023': { redirect: { to: '/impressie/2023-hoge-nood', statusCode: 301 } }
+  },
+  runtimeConfig: {
+    mysqlHost: '',
+    mysqlUser: '',
+    mysqlPassword: '',
+    mysqlDatabase: '',
+    mysqlPort: 3306,
+    mailHost: '',
+    mailPort: 587,
+    mailUser: '',
+    mailPassword: '',
+    mailTo: ''
   }
 })

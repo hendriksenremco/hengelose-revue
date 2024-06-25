@@ -1,6 +1,7 @@
 import { z } from 'zod'
 import contactFormSchema from '~/schemas/contactForm'
 export default defineEventHandler(async event => {
+  const config = useAppConfig()
   const { db, mail } = await event.context
   const { type, name, email, phone, message } = await readBody(event)
   const schema = z.object(contactFormSchema)
@@ -21,7 +22,7 @@ export default defineEventHandler(async event => {
   try {
     await mail.sendMail({
       from: 'website@hengeloserevue.nl',
-      to: 'secretariaat@hengeloserevue.nl',
+      to: config.mailTo,
       subject: 'Contact formulier ingevuld',
       html: `Naam: ${name}<br> E-mailadres: ${email}<br> Telefoonnummer: ${phone}<br> Bericht: ${message}`
     })

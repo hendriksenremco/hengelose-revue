@@ -1,6 +1,6 @@
 import { createPool } from 'mysql2/promise'
 export default defineNitroPlugin(async nitroApp => {
-  const config = useAppConfig()
+  const config = useRuntimeConfig()
 
   const connection = await createPool({
     host: config.mysqlHost,
