@@ -21,7 +21,7 @@ export default defineEventHandler(async event => {
   try {
     await mail.sendMail({
       from: 'website@hengeloserevue.nl',
-      to: 'remco@remcohendriksen.nl',
+      to: 'remco@hengeloserevue.nl',
       subject: 'Contact formulier ingevuld',
       html: `Naam: ${name}<br> E-mailadres: ${email}<br> Telefoonnummer: ${phone}<br> Bericht: ${message}`
     })
