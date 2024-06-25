@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import contactFormSchema from '~/schemas/contactForm'
 export default defineEventHandler(async event => {
-  const config = useAppConfig()
+  const config = useRuntimeConfig()
   const { db, mail } = await event.context
   const { type, name, email, phone, message } = await readBody(event)
   const schema = z.object(contactFormSchema)
